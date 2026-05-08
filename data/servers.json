@@ -1,0 +1,56 @@
+{
+  "lastUpdated": "2026-05-08T07:35:34.349Z",
+  "servers": [
+    {
+      "id": "73e11bb8b9e5e76c",
+      "hostname": "mc.hypixel.net",
+      "port": 25565,
+      "name": "mc.hypixel.net",
+      "motd": "Hypixel Network [1.8/26.1]\n        SKYBLOCK v0.24.5 - HARVEST FEAST",
+      "version": "Requires MC 1.8 / 1.21",
+      "playersOnline": 15512,
+      "maxPlayers": 200000,
+      "ping": 628,
+      "online": true,
+      "lastSeen": "2026-05-08T07:35:26.409Z",
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T07:35:26.409Z"
+    },
+    {
+      "id": "d35a2f0cadf0aeef",
+      "hostname": "play.skyblock.net",
+      "port": 25565,
+      "name": "play.skyblock.net",
+      "motd": "Skyblock ❘ Follow us on Twitter! @Skyblock\nThe home of Skyblock!",
+      "version": "BungeeCord 1.8.x-26.1.x",
+      "playersOnline": 202,
+      "maxPlayers": 750,
+      "ping": 553,
+      "online": true,
+      "lastSeen": "2026-05-08T07:35:26.335Z",
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T07:35:26.335Z"
+    },
+    {
+      "id": "fa8cb134e0ae8244",
+      "hostname": "skyblock.gg",
+      "port": 25565,
+      "name": "skyblock.gg",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T07:35:30.784Z"
+    }
+  ]
+}
