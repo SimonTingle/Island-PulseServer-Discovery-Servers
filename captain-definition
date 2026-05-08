@@ -1,0 +1,26 @@
+schemaVersion: 2
+dockerfilePath: ./Dockerfile
+displayName: IslandPulse Server Discovery
+description: SkyBlock server discovery and outreach intelligence platform with contact scraping and heat scoring
+isWebApp: true
+ports:
+  - 3000
+environment:
+  - key: NODE_ENV
+    description: Node environment
+    defaultValue: production
+  - key: NEXT_PUBLIC_APP_NAME
+    description: Application name
+    defaultValue: IslandPulse Server Discovery
+  - key: NEXT_PUBLIC_APP_URL
+    description: Application URL
+    defaultValue: http://localhost:3000
+  - key: ISLANDPULSE_BACKEND_URL
+    description: IslandPulse backend URL for economy data
+    defaultValue: http://localhost:3001
+  - key: ISLANDPULSE_ADMIN_KEY
+    description: Admin API key for IslandPulse backend
+    defaultValue: ''
+volumes:
+  - containerPath: /app/data
+    description: Server cache and discovered servers data
