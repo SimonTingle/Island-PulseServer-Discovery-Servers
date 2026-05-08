@@ -1,6 +1,7 @@
 import { readCache } from "@/lib/storage";
 import ServerList from "@/components/ServerList";
 import RefreshButton from "@/components/RefreshButton";
+import ScanAllOutreachButton from "@/components/ScanAllOutreachButton";
 
 export const dynamic = "force-dynamic";
 
@@ -54,6 +55,7 @@ export default function HomePage() {
             Updated: {formatDate(cache.lastUpdated)}
           </span>
           <RefreshButton />
+          <ScanAllOutreachButton serverCount={cache.servers.length} />
         </div>
       </div>
 
