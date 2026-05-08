@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T07:35:34.349Z",
+  "lastUpdated": "2026-05-08T09:45:37.636Z",
   "servers": [
     {
       "id": "73e11bb8b9e5e76c",
@@ -8,32 +8,960 @@
       "name": "mc.hypixel.net",
       "motd": "Hypixel Network [1.8/26.1]\n        SKYBLOCK v0.24.5 - HARVEST FEAST",
       "version": "Requires MC 1.8 / 1.21",
-      "playersOnline": 15512,
+      "playersOnline": 17341,
       "maxPlayers": 200000,
-      "ping": 628,
+      "ping": 576,
       "online": true,
-      "lastSeen": "2026-05-08T07:35:26.409Z",
+      "lastSeen": "2026-05-08T09:45:23.202Z",
       "gamemode": "BSkyBlock",
       "islandPulseStatus": null,
       "islandPulseData": null,
-      "fetchedAt": "2026-05-08T07:35:26.409Z"
+      "fetchedAt": "2026-05-08T09:45:23.202Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:18:20.202Z",
+        "contacts": [],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/h1h3ckkup9yg1.png",
+            "title": "Can't join hypixel with the mc.hypixel.io IP anymore",
+            "date": "2026-04-30T06:00:53.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/n8d5sa1ib1yg1.jpeg",
+            "title": "recent topeaglerservers posts",
+            "date": "2026-04-29T01:46:00.000Z",
+            "language": "en",
+            "snippet": "topeaglerservers is NOT actually good, despite all the posts saying it is. people are only posting this to earn credits on their platform, and should just be ignored. if you currently use topeaglerser"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1sjo5o6",
+            "title": "Server join (Dev Version)",
+            "date": "2026-04-12T19:34:03.000Z",
+            "language": "en",
+            "snippet": "[https://github.com/Voxelum/x-minecraft-launcher/pull/1374](https://github.com/Voxelum/x-minecraft-launcher/pull/1374)"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1rcmpdi/i_really_need_help_with_my_account/",
+            "title": "I really need help with my account.",
+            "date": "2026-02-23T16:50:30.000Z",
+            "language": "en",
+            "snippet": "I've played on hypixel for a long, long time and I quitted maybe like half a year ago. Just recently (two weeks ago) I downloaded Avast Antivirus because I had a few malware that Windows Security coul"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/w79bjim9xhjg1.png",
+            "title": "Happy Singles Awareness Day Y'all! 🩷",
+            "date": "2026-02-14T17:37:33.000Z",
+            "language": "en",
+            "snippet": "Tried whacking nerds with flowers on Skywars today as per tradition - let's just say Techno made it look way easier than it is, but I'm probably just bad at videogames :D\n\nAnyways, Happy Valentines Da"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/wf88wkqmywfg1.png",
+            "title": "Help i cannot connect to server",
+            "date": "2026-01-27T15:54:53.000Z",
+            "language": "en",
+            "snippet": "I tried connecting to the server and it first said i cannot connect so i deleted it and readded it to my server list. Which then said that i could connect but when i try it came up at \"Disconnected\" a"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/discordfriends/comments/1qldku3/19m_looking_for_duo/",
+            "title": "19m looking for duo",
+            "date": "2026-01-24T04:44:55.000Z",
+            "language": "en",
+            "snippet": "hi my name is thomas I’m 19 from Canada. looking for a duo I mainly play mc, hypixel skyblock, dbd, Roblox but I’m open to playing anything\n\napart from games I like watching anime and filling out my m"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/9i3xd8vwh7ag1.png",
+            "title": "I'm cooked",
+            "date": "2025-12-29T20:53:23.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/hypixel/comments/1piiovt/i_just_added_the_server_using_mchypixelnet_and_it/",
+            "title": "I just added the server using mc.hypixel.net and it won't connect or wind the server at all, if I add other servers it works just fine",
+            "date": "2025-12-09T20:43:34.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/hypixel/comments/1phyu1m/being_the_best_at_mc_hypixel_bedwars_189/",
+            "title": "being the best at mc hypixel bedwars 1.8.9",
+            "date": "2025-12-09T04:55:29.000Z",
+            "language": "en",
+            "snippet": "yall prolly dont relate but imagine being so good at 1.8.9 bedwars in hypixel that every team pushes ur team. Tired of ts, user is skingrr, everyone who has killed me just plays like a pussy like knoc"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/techsupport/comments/1pgjbvp/unable_to_connect_to_online_games/",
+            "title": "Unable to connect to online games",
+            "date": "2025-12-07T14:14:26.000Z",
+            "language": "en",
+            "snippet": "Device: Acer Aspire A515 with MS Windows 11 Home 10.0.26200 Build 26200\n\nContext/ Issue:\n\nI am unable to connect to any online games but can browse and watch Youtube just fine. Google Meet also works."
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GamerPals/comments/1p49brd/looking_for_a_long_term_gaming_friend/",
+            "title": "Looking for a long term gaming friend",
+            "date": "2025-11-23T00:56:08.000Z",
+            "language": "pt",
+            "snippet": "Heya, trying to find a friend to play stuff with hopefully long term. (PC only) as i'd like to have a large variety of games including pc exclusive so that's that  \nHere's a list of the games I play: "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1p46nud/why_am_i_unable_to_join_hypixel/",
+            "title": "Why am I unable to join Hypixel",
+            "date": "2025-11-22T22:53:28.000Z",
+            "language": "en",
+            "snippet": "I recently downloaded Java and I was able to connect to other servers just fine but with Hypixel it keeps saying \"Failed to connect to the server Disconnected\" I have been entering [mc.hypixel.net](ht"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/hypixel/comments/1oi1eh0/getting_instantly_disconnected_on_hypixel_heres/",
+            "title": "Getting instantly disconnected on Hypixel? Here’s what might be going on + a few fixes that helped",
+            "date": "2025-10-28T05:37:49.000Z",
+            "language": "pt",
+            "snippet": "Hey everyone,\n\nIf you’ve been trying to join Hypixel recently and keep getting kicked with just a disconnected message, no lag or timeout, you’re definitely not the only one. This issue started poppin"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/topg/comments/1o2n8fm/10_solid_minecraft_smp_servers_for_2025/",
+            "title": "10 solid Minecraft SMP servers for 2025",
+            "date": "2025-10-10T01:00:50.000Z",
+            "language": "en",
+            "snippet": "\n1.  MoxMC (moxmc.net) - Economy, survival, lots of players. Top pick.\n2.  CatCraft (play.catcraft.net) - Friendly, easy land claims, good for builds.\n3.  LifeSteal (lifesteal.smp.gg) - PvP with heart"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/uBlockOrigin/comments/1lwd37v/filter_to_skip_a_video_ad_on_the_hypixel_rewards/",
+            "title": "Filter to skip a video ad on the hypixel rewards website? (minecraft account requiered)",
+            "date": "2025-07-10T13:44:21.000Z",
+            "language": "pt",
+            "snippet": "Website(used for claiming rewards on a minecraft server): [rewards.hypixel.net](http://rewards.hypixel.net) (you have to use ur own link that you get from an in game npc)\n\ngithub issue: [https://githu"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1k0g5pv/i_can_connect_to_every_minecraft_server_except/",
+            "title": "I can connect to every minecraft server EXCEPT Hypixel",
+            "date": "2025-04-16T09:22:40.000Z",
+            "language": "en",
+            "snippet": "I've got a problem. I'm trying to connect to hypixel but it doesnt work and I get the error message: Java.net.ConnectionException: Connection timed out: getsockopt: [mc.hypixel.net/209.222.115.xxx:255"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1iwhbiq/how_do_big_servers_avoid_needing_to_put_in_a_port/",
+            "title": "How do big servers avoid needing to put in a port number for the server address?",
+            "date": "2025-02-23T18:50:12.000Z",
+            "language": "pt",
+            "snippet": "[SOLVED]\n\nQuestion in title. For example, hypixel's address is mc.hypixel.net. \n\nI'm trying to set this up for my Minecraft server, but my registrar (Porkbun) won't allow directing a url to an ip addr"
+          }
+        ],
+        "heat": {
+          "score": 74,
+          "label": "Warm",
+          "lastMentionDate": "2026-04-30T06:00:53.000Z"
+        }
+      }
+    },
+    {
+      "id": "1cc20f0abe6d3a29",
+      "hostname": "asia.skyblock.net",
+      "port": 25565,
+      "name": "asia.skyblock.net",
+      "motd": "Skyblock ❘ Join our Discord! discord.gg/sb\nThe home of Skyblock!",
+      "version": "BungeeCord 1.8.x-26.1.x",
+      "playersOnline": 202,
+      "maxPlayers": 750,
+      "ping": 609,
+      "online": true,
+      "lastSeen": "2026-05-08T09:45:33.240Z",
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:33.240Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:13:51.542Z",
+        "contacts": [
+          {
+            "kind": "discord",
+            "value": "sb",
+            "url": "https://discord.gg/sb",
+            "source": "motd",
+            "priority": 1
+          }
+        ],
+        "mentions": [],
+        "heat": {
+          "score": 0,
+          "label": "Frozen",
+          "lastMentionDate": null
+        }
+      }
+    },
+    {
+      "id": "e2b8859e2b6b9ff7",
+      "hostname": "play.skyblock.pro",
+      "port": 25565,
+      "name": "play.skyblock.pro",
+      "motd": "Skyblock ❘ Join our Discord! discord.gg/sb\nThe home of Skyblock!",
+      "version": "BungeeCord 1.8.x-26.1.x",
+      "playersOnline": 202,
+      "maxPlayers": 750,
+      "ping": 527,
+      "online": true,
+      "lastSeen": "2026-05-08T09:45:28.156Z",
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:28.156Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:17:11.291Z",
+        "contacts": [
+          {
+            "kind": "discord",
+            "value": "sb",
+            "url": "https://discord.gg/sb",
+            "source": "motd",
+            "priority": 1
+          }
+        ],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1t5iwlk/hypixel_for_free_i_really_want_to_play_skyblock/",
+            "title": "Hypixel for free? I really want to play skyblock",
+            "date": "2026-05-06T17:01:48.000Z",
+            "language": "en",
+            "snippet": "Guys I really wanna play hypixel and especially skyblock but I have no money and parents not allow to buy games. Is there any way to play it free?"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1t4s5sh/australia_ping_difference/",
+            "title": "Australia Ping difference",
+            "date": "2026-05-05T20:55:13.000Z",
+            "language": "en",
+            "snippet": "I’m lvl 240 on skyblock (ign: LlamaGibKarma) and I struggle with lag and ping.  \nItems I click pick up then drop back down multiple times, it takes longer than anything when trying to solve things suc"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerFinder/comments/1t4k1jx/what_makes_skyblcok_fun/",
+            "title": "What makes Skyblcok fun ?",
+            "date": "2026-05-05T16:12:15.000Z",
+            "language": "en",
+            "snippet": "I am fairly new to Skyblock. I'll keep it real, I've never played Skyblock or Factions or Prisons but they have ALWAYS caught my eye. I like grinding competitive video games. I'm playing Rocket League"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t4jz27/what_makes_skyblock_fun/",
+            "title": "What makes Skyblock fun?",
+            "date": "2026-05-05T16:09:50.000Z",
+            "language": "en",
+            "snippet": "I am fairly new to Skyblock. I'll keep it real, I've never played Skyblock or Factions or Prisons but they have ALWAYS caught my eye. I like grinding competitive video games. I'm playing Rocket League"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/ProjectKSBC/comments/1t423f0/what_actually_makes_a_skyblock_server_worth/",
+            "title": "What actually makes a Skyblock server worth playing?",
+            "date": "2026-05-05T02:09:28.000Z",
+            "language": "pt",
+            "snippet": "I am fairly new to Skyblock. I'll keep it real, I've never played Skyblock or Factions or Prisons but they have ALWAYS caught my eye. I like grinding competitive video games. I'm playing Rocket League"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/97dqk1oo13zg1.jpeg",
+            "title": "Genuinely wtf is ts 😭😭🥀",
+            "date": "2026-05-04T08:38:40.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/hypixel/comments/1t32q8k/what_is_that/",
+            "title": "what is that?",
+            "date": "2026-05-04T00:47:02.000Z",
+            "language": "en",
+            "snippet": "Hey i have a Question about this Suspicious Account Activity thing.\n\nhow can it be that this happens? does this mean form the Forums wise that someone logged into my Account and tryd to join the Hypix"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GoodVinesAndMemes/comments/1t2deof/new_members_intro/",
+            "title": "New Members Intro",
+            "date": "2026-05-03T06:15:05.000Z",
+            "language": "en",
+            "snippet": "If you’re new to the community, introduce yourself!\n\nDon't be shy we all play Skyblock on hypixel"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/SkyBlock/comments/1t1x9co/issue_with_starting_skyblock/",
+            "title": "Issue with starting skyblock",
+            "date": "2026-05-02T18:11:22.000Z",
+            "language": "en",
+            "snippet": "This is my first time trying to play skyblock, but for some reason, when I put the download into my saves folder, it doesn't show up in minecraft. I've tried several versions and it just refuses to ex"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HelpMeFind/comments/1t1gl6e/help_me_find_old_yt_videos_i_used_to_watch/",
+            "title": "Help me find old YT videos I used to watch?",
+            "date": "2026-05-02T05:10:22.000Z",
+            "language": "en",
+            "snippet": "Hi! I’m not really sure if this is the right place for this but I have 2 YouTube series in mind that I used to watch when I was a kid. I’ve been searching for these videos for years, I have absolutely"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GiftofGames/comments/1sroq4c/requestpc_minecraft_java_bedrock_editionattempt_9/",
+            "title": "[REQUEST][PC] Minecraft: Java &amp; Bedrock Edition(Attempt #9)",
+            "date": "2026-04-21T14:07:33.000Z",
+            "language": "en",
+            "snippet": "***Hello everyone,***\n\nI am reaching out for my **ninth attempt**. While it’s been a long journey of trying, my passion for this game hasn't faded. Gaming has always been my escape, and Minecraft is t"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GiftofGames/comments/1sovpod/requestpc_minecraft_java_bedrock_editionattempt_8/",
+            "title": "[REQUEST][PC] Minecraft: Java &amp; Bedrock Edition(Attempt #8)",
+            "date": "2026-04-18T11:59:12.000Z",
+            "language": "en",
+            "snippet": "***Hello everyone,***\n\nI am reaching out for my **eighth attempt**. While it’s been a long journey of trying, my passion for this game hasn't faded. Gaming has always been my escape, and Minecraft is "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/ntzzj6jyd6vg1.png",
+            "title": "someone tried to scam me ,i ragebaited him",
+            "date": "2026-04-14T15:36:51.000Z",
+            "language": "en",
+            "snippet": "hello fellas   \nso this happened with me today when i was just playing skyblock and tried queuing some f7 runs ,the usual party finder stuff and i stumble upon this party with 3 people who are like de"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1slc7o5/does_placing_a_dirt_block_sound_like_chinese_to/",
+            "title": "Does placing a dirt block sound like Chinese to anyone else or just me?",
+            "date": "2026-04-14T15:36:00.000Z",
+            "language": "pt",
+            "snippet": "So i was just playing Skyblock and as i was placing dirt blocks i noticed that the dirt sounds like it's speaking Chinese and i can't unhear it."
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1sfx597/play_skyblock/",
+            "title": "Play skyblock?",
+            "date": "2026-04-08T16:04:34.000Z",
+            "language": "en",
+            "snippet": "Hello!  Since i bought the game 15 years ago ive always played the game vanilla, been watching some youtube and wanted to try some other gamemodes like skyblock (infinite?) \n\nFound a DL but doesnt get"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/je8poyts8ztg1.jpeg",
+            "title": "Crashing out (image unrelated)",
+            "date": "2026-04-08T14:30:46.000Z",
+            "language": "en",
+            "snippet": "when I didn't have a minecraft account, my online friends used to play this game, I had to abandon social media for study and when I came back, I lost the passwords to my social media accounts. i got "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1sfj57a/world_transfers_from_switch_to_chromebook/",
+            "title": "World transfers from Switch to Chromebook (Microsoft)?",
+            "date": "2026-04-08T04:43:29.000Z",
+            "language": "en",
+            "snippet": "Is there a way to transfer MC worlds from my Switch (saved locally/no cloud backup) to my Chromebook (logged in with Microsoft)? I want to buy some stuff on the Marketplace using my Chromebook/Microso"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1s94f3z/nintendo_switch_skyblockone_block/",
+            "title": "nintendo switch skyblock/one block",
+            "date": "2026-03-31T23:56:13.000Z",
+            "language": "en",
+            "snippet": "hey quick question, looking for advice/recommendations on playing skyblock/one block on nintendo switch. not really sure how the whole thing with buying stuff on market place/ elsewhere works tbh. wou"
+          }
+        ],
+        "heat": {
+          "score": 94,
+          "label": "Hot",
+          "lastMentionDate": "2026-05-06T17:01:48.000Z"
+        }
+      }
+    },
+    {
+      "id": "ee5393b0851f83f4",
+      "hostname": "skyblock.games",
+      "port": 25565,
+      "name": "skyblock.games",
+      "motd": "Skyblock ❘ Follow us on Twitter! @Skyblock\nThe home of Skyblock!",
+      "version": "BungeeCord 1.8.x-26.1.x",
+      "playersOnline": 202,
+      "maxPlayers": 750,
+      "ping": 630,
+      "online": true,
+      "lastSeen": "2026-05-08T09:45:28.259Z",
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:28.259Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:19:00.456Z",
+        "contacts": [
+          {
+            "kind": "discord",
+            "value": "sb",
+            "url": "https://discord.gg/sb",
+            "source": "motd",
+            "priority": 1
+          }
+        ],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/0ybtqsschvzg1.png",
+            "title": "me when the",
+            "date": "2026-05-08T08:16:33.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/allthemods/comments/1t6zhh7/overwhelmed_with_the_modpack/",
+            "title": "Overwhelmed with the modpack",
+            "date": "2026-05-08T06:16:55.000Z",
+            "language": "en",
+            "snippet": "Hi guys, Good day to you all,\n\nSo i just started ATM10 two days back and i still havent progressed aside for just clearing a small space out from trees and a few chests and a bed beneath the sky. I ju"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/qacsyhc4uuzg1.png",
+            "title": "Cómo puedo salvar a mi vaca en mi Skyblock",
+            "date": "2026-05-08T06:06:15.000Z",
+            "language": "es",
+            "snippet": "Ayuda "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerFinder/comments/1t6z79y/revival_smp/",
+            "title": "⚔️ REVIVAL SMP",
+            "date": "2026-05-08T06:01:39.000Z",
+            "language": "en",
+            "snippet": "# REVIVAL SMP\n\n❤️ Lifesteal SMP  \n⚔️ PvP, Raiding, Teams &amp; Bounties  \n💰 Souls Currency &amp; Player Economy  \n✨ Cosmetics, Events &amp; Active Community\n\nRevival SMP is a competitive Minecraft ne"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1t6ws7h/anyone_wanna_trade_coins_for_hypixel_gifts/",
+            "title": "Anyone wanna trade coins for Hypixel gifts?",
+            "date": "2026-05-08T03:55:00.000Z",
+            "language": "en",
+            "snippet": "I got a skyblock profile with about 11.5b net worth and I wanna quit skyblock completely and give away my whole purse. After selling everything I own I would probably have around 4b purse. I could giv"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerFinder/comments/1t6ub39/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:56:18.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftSMPs/comments/1t6uadq/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:55:23.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerShare/comments/1t6u9ed/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:54:10.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t6u8x7/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:53:33.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MCVanillaServers/comments/1t6u88u/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:52:42.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GiftofGames/comments/1t6gcxi/requestpc_minecraft_java_and_bedrock_edition/",
+            "title": "[REQUEST][PC] Minecraft Java and Bedrock Edition (Global) (2nd Attempt)",
+            "date": "2026-05-07T16:54:59.000Z",
+            "language": "en",
+            "snippet": "&amp;#x200B;\n\nHello fellow sub! This is my second attempt.\n\nI've been in love with this game since i was a kid, i was fascinated by how good this game was, crafting, mining, exploring biomes it was ju"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1t6er7n/what_mods_does_welcomintv_use/",
+            "title": "What mods does WelcominTV use?",
+            "date": "2026-05-07T15:59:06.000Z",
+            "language": "en",
+            "snippet": "Basically the title haha. Specifically, in his 100 days videos!  \nI want to get back into minecraft but I love Skyblock, and seeing as he uses a solo Skyblock mod, i'll probably go that route. But he "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftMod/comments/1t6enef/need_help_figuring_out_what_mods_welcomintv/",
+            "title": "Need help figuring out what mods WelcominTV routinely uses",
+            "date": "2026-05-07T15:55:18.000Z",
+            "language": "en",
+            "snippet": "Basically the title haha. Specifically, in this video: [https://www.youtube.com/watch?v=KgR80oNp3es](https://www.youtube.com/watch?v=KgR80oNp3es)\n\n  \nI want to get back into minecraft but I love Skybl"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t5j64i/needing_a_new_community/",
+            "title": "Needing a new community?",
+            "date": "2026-05-06T17:10:41.000Z",
+            "language": "pt",
+            "snippet": "🔥 Core Craft Minecraft Server 🔥\n\n«Your new go-to Minecraft server for every playstyle»\n\n🌍 Survival\n\nClassic survival with a strong, active community\n\n🏝️ Skyblock\n\nStart from nothing and build your"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftBedrockers/comments/1t5j56h/looking_to_get_new_members_and_possible_some_staff/",
+            "title": "Looking to get new members and possible some staff",
+            "date": "2026-05-06T17:09:49.000Z",
+            "language": "en",
+            "snippet": "🔥 Core Craft Minecraft Server 🔥\n\n«Your new go-to Minecraft server for every playstyle»\n\n🌍 Survival\n\nClassic survival with a strong, active community\n\n🏝️ Skyblock\n\nStart from nothing and build your"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftSMPs/comments/1t5j4en/looking_to_freshen_some_things_up/",
+            "title": "Looking to freshen some things up",
+            "date": "2026-05-06T17:09:03.000Z",
+            "language": "en",
+            "snippet": "🔥 Core Craft Minecraft Server 🔥\n\n«Your new go-to Minecraft server for every playstyle»\n\n🌍 Survival\n\nClassic survival with a strong, active community\n\n🏝️ Skyblock\n\nStart from nothing and build your"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MCVanillaServers/comments/1t4yq5k/skyblocktj_100_vanilla_classic_skyblock/",
+            "title": "Skyblock.tj - 100% Vanilla, Classic Skyblock!",
+            "date": "2026-05-06T01:29:11.000Z",
+            "language": "en",
+            "snippet": "**Server IP:** [**skyblock.tj**](http://skyblock.tj)\n\n**Alternative IP:** [**skyblock.obamasex.com**](http://skyblock.obamasex.com)\n\n**Discord:** [**https://skyblock.tj/discord**](https://sams.tj/disc"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/opc3sxso6fzg1.png",
+            "title": "skyblock.tj - Classic, 100% Vanilla Skyblock, no frills added",
+            "date": "2026-05-06T01:28:08.000Z",
+            "language": "en",
+            "snippet": "**Server IP:** [**skyblock.tj**](http://skyblock.tj)\n\n**Alternative IP:** [**skyblock.obamasex.com**](http://skyblock.obamasex.com)\n\n**Discord:** [**https://skyblock.tj/discord**](https://sams.tj/disc"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Technoblade/comments/1t4owzj/man_where_do_i_even_start/",
+            "title": "Man, where do I even start?",
+            "date": "2026-05-05T18:59:31.000Z",
+            "language": "pt",
+            "snippet": "Dear Technoblade subreddit,\n\nI just wanted to write a few things that have been on my mind recently.\n\nYou might be wondering why I would want to write a whole essay to a bunch of redditors I don't kno"
+          }
+        ],
+        "heat": {
+          "score": 100,
+          "label": "Hot",
+          "lastMentionDate": "2026-05-08T08:16:33.000Z"
+        }
+      }
+    },
+    {
+      "id": "390cc310a5df7239",
+      "hostname": "eu.skyblock.net",
+      "port": 25565,
+      "name": "eu.skyblock.net",
+      "motd": "Skyblock ❘ Follow us on Twitter! @Skyblock\nThe home of Skyblock!",
+      "version": "BungeeCord 1.8.x-26.1.x",
+      "playersOnline": 202,
+      "maxPlayers": 750,
+      "ping": 609,
+      "online": true,
+      "lastSeen": "2026-05-08T09:45:33.240Z",
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:33.240Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:19:24.453Z",
+        "contacts": [],
+        "mentions": [],
+        "heat": {
+          "score": 0,
+          "label": "Frozen",
+          "lastMentionDate": null
+        }
+      }
     },
     {
       "id": "d35a2f0cadf0aeef",
       "hostname": "play.skyblock.net",
       "port": 25565,
       "name": "play.skyblock.net",
-      "motd": "Skyblock ❘ Follow us on Twitter! @Skyblock\nThe home of Skyblock!",
+      "motd": "Skyblock ❘ Join our Discord! discord.gg/sb\nThe home of Skyblock!",
       "version": "BungeeCord 1.8.x-26.1.x",
-      "playersOnline": 202,
+      "playersOnline": 201,
       "maxPlayers": 750,
-      "ping": 553,
+      "ping": 539,
       "online": true,
-      "lastSeen": "2026-05-08T07:35:26.335Z",
+      "lastSeen": "2026-05-08T09:45:23.163Z",
       "gamemode": "BSkyBlock",
       "islandPulseStatus": null,
       "islandPulseData": null,
-      "fetchedAt": "2026-05-08T07:35:26.335Z"
+      "fetchedAt": "2026-05-08T09:45:23.163Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:19:39.846Z",
+        "contacts": [
+          {
+            "kind": "discord",
+            "value": "sb",
+            "url": "https://discord.gg/sb",
+            "source": "motd",
+            "priority": 1
+          }
+        ],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1t5iwlk/hypixel_for_free_i_really_want_to_play_skyblock/",
+            "title": "Hypixel for free? I really want to play skyblock",
+            "date": "2026-05-06T17:01:48.000Z",
+            "language": "en",
+            "snippet": "Guys I really wanna play hypixel and especially skyblock but I have no money and parents not allow to buy games. Is there any way to play it free?"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1t4s5sh/australia_ping_difference/",
+            "title": "Australia Ping difference",
+            "date": "2026-05-05T20:55:13.000Z",
+            "language": "en",
+            "snippet": "I’m lvl 240 on skyblock (ign: LlamaGibKarma) and I struggle with lag and ping.  \nItems I click pick up then drop back down multiple times, it takes longer than anything when trying to solve things suc"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerFinder/comments/1t4k1jx/what_makes_skyblcok_fun/",
+            "title": "What makes Skyblcok fun ?",
+            "date": "2026-05-05T16:12:15.000Z",
+            "language": "en",
+            "snippet": "I am fairly new to Skyblock. I'll keep it real, I've never played Skyblock or Factions or Prisons but they have ALWAYS caught my eye. I like grinding competitive video games. I'm playing Rocket League"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t4jz27/what_makes_skyblock_fun/",
+            "title": "What makes Skyblock fun?",
+            "date": "2026-05-05T16:09:50.000Z",
+            "language": "en",
+            "snippet": "I am fairly new to Skyblock. I'll keep it real, I've never played Skyblock or Factions or Prisons but they have ALWAYS caught my eye. I like grinding competitive video games. I'm playing Rocket League"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/ProjectKSBC/comments/1t423f0/what_actually_makes_a_skyblock_server_worth/",
+            "title": "What actually makes a Skyblock server worth playing?",
+            "date": "2026-05-05T02:09:28.000Z",
+            "language": "pt",
+            "snippet": "I am fairly new to Skyblock. I'll keep it real, I've never played Skyblock or Factions or Prisons but they have ALWAYS caught my eye. I like grinding competitive video games. I'm playing Rocket League"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/97dqk1oo13zg1.jpeg",
+            "title": "Genuinely wtf is ts 😭😭🥀",
+            "date": "2026-05-04T08:38:40.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/hypixel/comments/1t32q8k/what_is_that/",
+            "title": "what is that?",
+            "date": "2026-05-04T00:47:02.000Z",
+            "language": "en",
+            "snippet": "Hey i have a Question about this Suspicious Account Activity thing.\n\nhow can it be that this happens? does this mean form the Forums wise that someone logged into my Account and tryd to join the Hypix"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GoodVinesAndMemes/comments/1t2deof/new_members_intro/",
+            "title": "New Members Intro",
+            "date": "2026-05-03T06:15:05.000Z",
+            "language": "en",
+            "snippet": "If you’re new to the community, introduce yourself!\n\nDon't be shy we all play Skyblock on hypixel"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/SkyBlock/comments/1t1x9co/issue_with_starting_skyblock/",
+            "title": "Issue with starting skyblock",
+            "date": "2026-05-02T18:11:22.000Z",
+            "language": "en",
+            "snippet": "This is my first time trying to play skyblock, but for some reason, when I put the download into my saves folder, it doesn't show up in minecraft. I've tried several versions and it just refuses to ex"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HelpMeFind/comments/1t1gl6e/help_me_find_old_yt_videos_i_used_to_watch/",
+            "title": "Help me find old YT videos I used to watch?",
+            "date": "2026-05-02T05:10:22.000Z",
+            "language": "en",
+            "snippet": "Hi! I’m not really sure if this is the right place for this but I have 2 YouTube series in mind that I used to watch when I was a kid. I’ve been searching for these videos for years, I have absolutely"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GiftofGames/comments/1sroq4c/requestpc_minecraft_java_bedrock_editionattempt_9/",
+            "title": "[REQUEST][PC] Minecraft: Java &amp; Bedrock Edition(Attempt #9)",
+            "date": "2026-04-21T14:07:33.000Z",
+            "language": "en",
+            "snippet": "***Hello everyone,***\n\nI am reaching out for my **ninth attempt**. While it’s been a long journey of trying, my passion for this game hasn't faded. Gaming has always been my escape, and Minecraft is t"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GiftofGames/comments/1sovpod/requestpc_minecraft_java_bedrock_editionattempt_8/",
+            "title": "[REQUEST][PC] Minecraft: Java &amp; Bedrock Edition(Attempt #8)",
+            "date": "2026-04-18T11:59:12.000Z",
+            "language": "en",
+            "snippet": "***Hello everyone,***\n\nI am reaching out for my **eighth attempt**. While it’s been a long journey of trying, my passion for this game hasn't faded. Gaming has always been my escape, and Minecraft is "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/ntzzj6jyd6vg1.png",
+            "title": "someone tried to scam me ,i ragebaited him",
+            "date": "2026-04-14T15:36:51.000Z",
+            "language": "en",
+            "snippet": "hello fellas   \nso this happened with me today when i was just playing skyblock and tried queuing some f7 runs ,the usual party finder stuff and i stumble upon this party with 3 people who are like de"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1slc7o5/does_placing_a_dirt_block_sound_like_chinese_to/",
+            "title": "Does placing a dirt block sound like Chinese to anyone else or just me?",
+            "date": "2026-04-14T15:36:00.000Z",
+            "language": "pt",
+            "snippet": "So i was just playing Skyblock and as i was placing dirt blocks i noticed that the dirt sounds like it's speaking Chinese and i can't unhear it."
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1sfx597/play_skyblock/",
+            "title": "Play skyblock?",
+            "date": "2026-04-08T16:04:34.000Z",
+            "language": "en",
+            "snippet": "Hello!  Since i bought the game 15 years ago ive always played the game vanilla, been watching some youtube and wanted to try some other gamemodes like skyblock (infinite?) \n\nFound a DL but doesnt get"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/je8poyts8ztg1.jpeg",
+            "title": "Crashing out (image unrelated)",
+            "date": "2026-04-08T14:30:46.000Z",
+            "language": "en",
+            "snippet": "when I didn't have a minecraft account, my online friends used to play this game, I had to abandon social media for study and when I came back, I lost the passwords to my social media accounts. i got "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1sfj57a/world_transfers_from_switch_to_chromebook/",
+            "title": "World transfers from Switch to Chromebook (Microsoft)?",
+            "date": "2026-04-08T04:43:29.000Z",
+            "language": "en",
+            "snippet": "Is there a way to transfer MC worlds from my Switch (saved locally/no cloud backup) to my Chromebook (logged in with Microsoft)? I want to buy some stuff on the Marketplace using my Chromebook/Microso"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1s94f3z/nintendo_switch_skyblockone_block/",
+            "title": "nintendo switch skyblock/one block",
+            "date": "2026-03-31T23:56:13.000Z",
+            "language": "en",
+            "snippet": "hey quick question, looking for advice/recommendations on playing skyblock/one block on nintendo switch. not really sure how the whole thing with buying stuff on market place/ elsewhere works tbh. wou"
+          }
+        ],
+        "heat": {
+          "score": 94,
+          "label": "Hot",
+          "lastMentionDate": "2026-05-06T17:01:48.000Z"
+        }
+      }
+    },
+    {
+      "id": "661d13a69a38b524",
+      "hostname": "skyblock.cc",
+      "port": 25565,
+      "name": "skyblock.cc",
+      "motd": "Vexius Network        \n   | | |  Survival 1.21.1  |  Skyblock 1.17  | | |",
+      "version": "§7  1.12.2-1.21+  ⇉⇉ §20§7/§2250",
+      "playersOnline": 0,
+      "maxPlayers": 250,
+      "ping": 769,
+      "online": true,
+      "lastSeen": "2026-05-08T09:45:28.399Z",
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:28.399Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:20:10.244Z",
+        "contacts": [],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/0ybtqsschvzg1.png",
+            "title": "me when the",
+            "date": "2026-05-08T08:16:33.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/allthemods/comments/1t6zhh7/overwhelmed_with_the_modpack/",
+            "title": "Overwhelmed with the modpack",
+            "date": "2026-05-08T06:16:55.000Z",
+            "language": "en",
+            "snippet": "Hi guys, Good day to you all,\n\nSo i just started ATM10 two days back and i still havent progressed aside for just clearing a small space out from trees and a few chests and a bed beneath the sky. I ju"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/qacsyhc4uuzg1.png",
+            "title": "Cómo puedo salvar a mi vaca en mi Skyblock",
+            "date": "2026-05-08T06:06:15.000Z",
+            "language": "es",
+            "snippet": "Ayuda "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerFinder/comments/1t6z79y/revival_smp/",
+            "title": "⚔️ REVIVAL SMP",
+            "date": "2026-05-08T06:01:39.000Z",
+            "language": "en",
+            "snippet": "# REVIVAL SMP\n\n❤️ Lifesteal SMP  \n⚔️ PvP, Raiding, Teams &amp; Bounties  \n💰 Souls Currency &amp; Player Economy  \n✨ Cosmetics, Events &amp; Active Community\n\nRevival SMP is a competitive Minecraft ne"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1t6ws7h/anyone_wanna_trade_coins_for_hypixel_gifts/",
+            "title": "Anyone wanna trade coins for Hypixel gifts?",
+            "date": "2026-05-08T03:55:00.000Z",
+            "language": "en",
+            "snippet": "I got a skyblock profile with about 11.5b net worth and I wanna quit skyblock completely and give away my whole purse. After selling everything I own I would probably have around 4b purse. I could giv"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerFinder/comments/1t6ub39/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:56:18.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftSMPs/comments/1t6uadq/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:55:23.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerShare/comments/1t6u9ed/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:54:10.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t6u8x7/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:53:33.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MCVanillaServers/comments/1t6u88u/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:52:42.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GiftofGames/comments/1t6gcxi/requestpc_minecraft_java_and_bedrock_edition/",
+            "title": "[REQUEST][PC] Minecraft Java and Bedrock Edition (Global) (2nd Attempt)",
+            "date": "2026-05-07T16:54:59.000Z",
+            "language": "en",
+            "snippet": "&amp;#x200B;\n\nHello fellow sub! This is my second attempt.\n\nI've been in love with this game since i was a kid, i was fascinated by how good this game was, crafting, mining, exploring biomes it was ju"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1t6er7n/what_mods_does_welcomintv_use/",
+            "title": "What mods does WelcominTV use?",
+            "date": "2026-05-07T15:59:06.000Z",
+            "language": "en",
+            "snippet": "Basically the title haha. Specifically, in his 100 days videos!  \nI want to get back into minecraft but I love Skyblock, and seeing as he uses a solo Skyblock mod, i'll probably go that route. But he "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftMod/comments/1t6enef/need_help_figuring_out_what_mods_welcomintv/",
+            "title": "Need help figuring out what mods WelcominTV routinely uses",
+            "date": "2026-05-07T15:55:18.000Z",
+            "language": "en",
+            "snippet": "Basically the title haha. Specifically, in this video: [https://www.youtube.com/watch?v=KgR80oNp3es](https://www.youtube.com/watch?v=KgR80oNp3es)\n\n  \nI want to get back into minecraft but I love Skybl"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t5j64i/needing_a_new_community/",
+            "title": "Needing a new community?",
+            "date": "2026-05-06T17:10:41.000Z",
+            "language": "pt",
+            "snippet": "🔥 Core Craft Minecraft Server 🔥\n\n«Your new go-to Minecraft server for every playstyle»\n\n🌍 Survival\n\nClassic survival with a strong, active community\n\n🏝️ Skyblock\n\nStart from nothing and build your"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftBedrockers/comments/1t5j56h/looking_to_get_new_members_and_possible_some_staff/",
+            "title": "Looking to get new members and possible some staff",
+            "date": "2026-05-06T17:09:49.000Z",
+            "language": "en",
+            "snippet": "🔥 Core Craft Minecraft Server 🔥\n\n«Your new go-to Minecraft server for every playstyle»\n\n🌍 Survival\n\nClassic survival with a strong, active community\n\n🏝️ Skyblock\n\nStart from nothing and build your"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftSMPs/comments/1t5j4en/looking_to_freshen_some_things_up/",
+            "title": "Looking to freshen some things up",
+            "date": "2026-05-06T17:09:03.000Z",
+            "language": "en",
+            "snippet": "🔥 Core Craft Minecraft Server 🔥\n\n«Your new go-to Minecraft server for every playstyle»\n\n🌍 Survival\n\nClassic survival with a strong, active community\n\n🏝️ Skyblock\n\nStart from nothing and build your"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MCVanillaServers/comments/1t4yq5k/skyblocktj_100_vanilla_classic_skyblock/",
+            "title": "Skyblock.tj - 100% Vanilla, Classic Skyblock!",
+            "date": "2026-05-06T01:29:11.000Z",
+            "language": "en",
+            "snippet": "**Server IP:** [**skyblock.tj**](http://skyblock.tj)\n\n**Alternative IP:** [**skyblock.obamasex.com**](http://skyblock.obamasex.com)\n\n**Discord:** [**https://skyblock.tj/discord**](https://sams.tj/disc"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/opc3sxso6fzg1.png",
+            "title": "skyblock.tj - Classic, 100% Vanilla Skyblock, no frills added",
+            "date": "2026-05-06T01:28:08.000Z",
+            "language": "en",
+            "snippet": "**Server IP:** [**skyblock.tj**](http://skyblock.tj)\n\n**Alternative IP:** [**skyblock.obamasex.com**](http://skyblock.obamasex.com)\n\n**Discord:** [**https://skyblock.tj/discord**](https://sams.tj/disc"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Technoblade/comments/1t4owzj/man_where_do_i_even_start/",
+            "title": "Man, where do I even start?",
+            "date": "2026-05-05T18:59:31.000Z",
+            "language": "pt",
+            "snippet": "Dear Technoblade subreddit,\n\nI just wanted to write a few things that have been on my mind recently.\n\nYou might be wondering why I would want to write a whole essay to a bunch of redditors I don't kno"
+          }
+        ],
+        "heat": {
+          "score": 100,
+          "label": "Hot",
+          "lastMentionDate": "2026-05-08T08:16:33.000Z"
+        }
+      }
     },
     {
       "id": "fa8cb134e0ae8244",
@@ -50,7 +978,1046 @@
       "gamemode": "BSkyBlock",
       "islandPulseStatus": null,
       "islandPulseData": null,
-      "fetchedAt": "2026-05-08T07:35:30.784Z"
+      "fetchedAt": "2026-05-08T09:45:27.628Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:20:42.458Z",
+        "contacts": [],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/0ybtqsschvzg1.png",
+            "title": "me when the",
+            "date": "2026-05-08T08:16:33.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/allthemods/comments/1t6zhh7/overwhelmed_with_the_modpack/",
+            "title": "Overwhelmed with the modpack",
+            "date": "2026-05-08T06:16:55.000Z",
+            "language": "en",
+            "snippet": "Hi guys, Good day to you all,\n\nSo i just started ATM10 two days back and i still havent progressed aside for just clearing a small space out from trees and a few chests and a bed beneath the sky. I ju"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/qacsyhc4uuzg1.png",
+            "title": "Cómo puedo salvar a mi vaca en mi Skyblock",
+            "date": "2026-05-08T06:06:15.000Z",
+            "language": "es",
+            "snippet": "Ayuda "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerFinder/comments/1t6z79y/revival_smp/",
+            "title": "⚔️ REVIVAL SMP",
+            "date": "2026-05-08T06:01:39.000Z",
+            "language": "en",
+            "snippet": "# REVIVAL SMP\n\n❤️ Lifesteal SMP  \n⚔️ PvP, Raiding, Teams &amp; Bounties  \n💰 Souls Currency &amp; Player Economy  \n✨ Cosmetics, Events &amp; Active Community\n\nRevival SMP is a competitive Minecraft ne"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1t6ws7h/anyone_wanna_trade_coins_for_hypixel_gifts/",
+            "title": "Anyone wanna trade coins for Hypixel gifts?",
+            "date": "2026-05-08T03:55:00.000Z",
+            "language": "en",
+            "snippet": "I got a skyblock profile with about 11.5b net worth and I wanna quit skyblock completely and give away my whole purse. After selling everything I own I would probably have around 4b purse. I could giv"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerFinder/comments/1t6ub39/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:56:18.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftSMPs/comments/1t6uadq/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:55:23.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerShare/comments/1t6u9ed/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:54:10.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t6u8x7/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:53:33.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MCVanillaServers/comments/1t6u88u/jmc_smp_new_season_2612_semivanilla_hermitcraft/",
+            "title": "JMC [SMP] {NEW SEASON} {26.1.2} {Semi-Vanilla} {Hermitcraft Like} {VoiceChat} {Whitelist} {18+}",
+            "date": "2026-05-08T01:52:42.000Z",
+            "language": "en",
+            "snippet": "We are excited to announce that we have been working and preparing for our newest season of the **JMC** Server. We are going all out, with up to date ideas, QOL mods, and fully upgraded hardware to ha"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GiftofGames/comments/1t6gcxi/requestpc_minecraft_java_and_bedrock_edition/",
+            "title": "[REQUEST][PC] Minecraft Java and Bedrock Edition (Global) (2nd Attempt)",
+            "date": "2026-05-07T16:54:59.000Z",
+            "language": "en",
+            "snippet": "&amp;#x200B;\n\nHello fellow sub! This is my second attempt.\n\nI've been in love with this game since i was a kid, i was fascinated by how good this game was, crafting, mining, exploring biomes it was ju"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1t6er7n/what_mods_does_welcomintv_use/",
+            "title": "What mods does WelcominTV use?",
+            "date": "2026-05-07T15:59:06.000Z",
+            "language": "en",
+            "snippet": "Basically the title haha. Specifically, in his 100 days videos!  \nI want to get back into minecraft but I love Skyblock, and seeing as he uses a solo Skyblock mod, i'll probably go that route. But he "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftMod/comments/1t6enef/need_help_figuring_out_what_mods_welcomintv/",
+            "title": "Need help figuring out what mods WelcominTV routinely uses",
+            "date": "2026-05-07T15:55:18.000Z",
+            "language": "en",
+            "snippet": "Basically the title haha. Specifically, in this video: [https://www.youtube.com/watch?v=KgR80oNp3es](https://www.youtube.com/watch?v=KgR80oNp3es)\n\n  \nI want to get back into minecraft but I love Skybl"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t5j64i/needing_a_new_community/",
+            "title": "Needing a new community?",
+            "date": "2026-05-06T17:10:41.000Z",
+            "language": "pt",
+            "snippet": "🔥 Core Craft Minecraft Server 🔥\n\n«Your new go-to Minecraft server for every playstyle»\n\n🌍 Survival\n\nClassic survival with a strong, active community\n\n🏝️ Skyblock\n\nStart from nothing and build your"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftBedrockers/comments/1t5j56h/looking_to_get_new_members_and_possible_some_staff/",
+            "title": "Looking to get new members and possible some staff",
+            "date": "2026-05-06T17:09:49.000Z",
+            "language": "en",
+            "snippet": "🔥 Core Craft Minecraft Server 🔥\n\n«Your new go-to Minecraft server for every playstyle»\n\n🌍 Survival\n\nClassic survival with a strong, active community\n\n🏝️ Skyblock\n\nStart from nothing and build your"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftSMPs/comments/1t5j4en/looking_to_freshen_some_things_up/",
+            "title": "Looking to freshen some things up",
+            "date": "2026-05-06T17:09:03.000Z",
+            "language": "en",
+            "snippet": "🔥 Core Craft Minecraft Server 🔥\n\n«Your new go-to Minecraft server for every playstyle»\n\n🌍 Survival\n\nClassic survival with a strong, active community\n\n🏝️ Skyblock\n\nStart from nothing and build your"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MCVanillaServers/comments/1t4yq5k/skyblocktj_100_vanilla_classic_skyblock/",
+            "title": "Skyblock.tj - 100% Vanilla, Classic Skyblock!",
+            "date": "2026-05-06T01:29:11.000Z",
+            "language": "en",
+            "snippet": "**Server IP:** [**skyblock.tj**](http://skyblock.tj)\n\n**Alternative IP:** [**skyblock.obamasex.com**](http://skyblock.obamasex.com)\n\n**Discord:** [**https://skyblock.tj/discord**](https://sams.tj/disc"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/opc3sxso6fzg1.png",
+            "title": "skyblock.tj - Classic, 100% Vanilla Skyblock, no frills added",
+            "date": "2026-05-06T01:28:08.000Z",
+            "language": "en",
+            "snippet": "**Server IP:** [**skyblock.tj**](http://skyblock.tj)\n\n**Alternative IP:** [**skyblock.obamasex.com**](http://skyblock.obamasex.com)\n\n**Discord:** [**https://skyblock.tj/discord**](https://sams.tj/disc"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Technoblade/comments/1t4owzj/man_where_do_i_even_start/",
+            "title": "Man, where do I even start?",
+            "date": "2026-05-05T18:59:31.000Z",
+            "language": "pt",
+            "snippet": "Dear Technoblade subreddit,\n\nI just wanted to write a few things that have been on my mind recently.\n\nYou might be wondering why I would want to write a whole essay to a bunch of redditors I don't kno"
+          }
+        ],
+        "heat": {
+          "score": 100,
+          "label": "Hot",
+          "lastMentionDate": "2026-05-08T08:16:33.000Z"
+        }
+      }
+    },
+    {
+      "id": "acc272e710d87634",
+      "hostname": "skyblock.loohp.com",
+      "port": 25565,
+      "name": "skyblock.loohp.com",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:27.639Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:21:16.230Z",
+        "contacts": [],
+        "mentions": [],
+        "heat": {
+          "score": 0,
+          "label": "Frozen",
+          "lastMentionDate": null
+        }
+      }
+    },
+    {
+      "id": "085af47bdec32eda",
+      "hostname": "islands.gg",
+      "port": 25565,
+      "name": "islands.gg",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": null,
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:32.630Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:21:36.276Z",
+        "contacts": [],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/newzealand_travel/comments/1t72oxk/looking_for_hiking_advice/",
+            "title": "Looking for hiking advice",
+            "date": "2026-05-08T09:18:39.000Z",
+            "language": "en",
+            "snippet": "Hey everyone,\n\n  \nI'm looking to solo travel to NZ right after my year 12 final exams finish (HSC). I would say I am a fairly experienced hiker as I have completed numerous multi day hikes in Australi"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MakeNewFriendsHere/comments/1t72ox9/21m_seeking_real_connections_thatll_actually_last/",
+            "title": "21M seeking real connections that'll actually LAST",
+            "date": "2026-05-08T09:18:38.000Z",
+            "language": "en",
+            "snippet": "hey :) i go by Ciel, 21, male.\n\nmusic i'm into: oasis, green day, nirvana, phoebe bridgers, radiohead, arctic monkeys, jeff buckley, weezer, fairuz, the smiths, black box recorder, coldplay, tame impa"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/indiegameswap/comments/1t72oi5/h_d4_circuit_superstars_wwe_2k25_labyrinthine/",
+            "title": "[H] D4, Circuit Superstars, WWE 2K25, Labyrinthine, Free Ones, Hurtworld, Project Cars GOTY, Miscreated, Friday 13th, Call To Arms Ostfront, The Outer Worlds, While True Learn CTO Edition, Metal Eden, Pacer, Rivals Of Aether, Intruder, BL3 Super Deluxe &amp; 100s more [W] Wishlist, Paypal (EU)",
+            "date": "2026-05-08T09:18:02.000Z",
+            "language": "en",
+            "snippet": "**ATM only looking for WISHLIST games or PAYPAL (F&amp;F if EU) otherwise buyer pays the paypal fees**\n\n**No interest in TF2 keys,CSGO cases,other virtual currency or accounts of ANY kind**\n\n**Only lo"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/coralisland/comments/1t72odw/shed_dimensions/",
+            "title": "Shed dimensions?",
+            "date": "2026-05-08T09:17:49.000Z",
+            "language": "en",
+            "snippet": "The [coral island planner](https://coral-farm-planner.com/) allows you to place sheds that are 9x9. \n\nBut the wiki says the shed is 9x8.\n\nAnybody know which is correct? Thanks!\n\n(I haven't built one y"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/SteamGameSwap/comments/1t72obw/h_d4_circuit_superstars_wwe_2k25_labyrinthine/",
+            "title": "[H] D4, Circuit Superstars, WWE 2K25, Labyrinthine, Free Ones, Hurtworld, Project Cars GOTY, Miscreated, Friday 13th, Call To Arms Ostfront, The Outer Worlds, While True Learn CTO Edition, Metal Eden, Pacer, Rivals Of Aether, Intruder, BL3 Super Deluxe &amp; 100s more [W] Wishlist, Paypal (EU)",
+            "date": "2026-05-08T09:17:44.000Z",
+            "language": "en",
+            "snippet": "**ATM only looking for WISHLIST games or PAYPAL (F&amp;F if EU) otherwise buyer pays the paypal fees**\n\n**No interest in TF2 keys,CSGO cases,other virtual currency or accounts of ANY kind**\n\n**Only lo"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Pokopia/comments/1t72ob9/help_meeeee/",
+            "title": "Help meeeee",
+            "date": "2026-05-08T09:17:42.000Z",
+            "language": "en",
+            "snippet": "Where are we all storing our materials? Currently have 3 homes across withered wasteland, bleach beach and rocky ridges, with a 4th in palette town.. are people storing all their materials in one home"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GameTrade/comments/1t72o7b/h_d4_circuit_superstars_wwe_2k25_labyrinthine/",
+            "title": "[H] D4, Circuit Superstars, WWE 2K25, Labyrinthine, Free Ones, Hurtworld, Project Cars GOTY, Miscreated, Friday 13th, Call To Arms Ostfront, The Outer Worlds, While True Learn CTO Edition, Metal Eden, Pacer, Rivals Of Aether, Intruder, BL3 Super Deluxe &amp; 100s more [W] Wishlist, Paypal (EU)",
+            "date": "2026-05-08T09:17:31.000Z",
+            "language": "en",
+            "snippet": "**ATM only looking for WISHLIST games or PAYPAL (F&amp;F if EU) otherwise buyer pays the paypal fees**\n\n**No interest in TF2 keys,CSGO cases,other virtual currency or accounts of ANY kind**\n\n**Only lo"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1t6l3di",
+            "title": "Socotra Island in Yemen",
+            "date": "2026-05-08T09:16:44.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HolUp/comments/1t72mz6/the_kraken/",
+            "title": "The kraken;",
+            "date": "2026-05-08T09:15:33.000Z",
+            "language": "en",
+            "snippet": "https://preview.redd.it/slyx223wrvzg1.png?width=277&amp;format=png&amp;auto=webp&amp;s=dec8c1ad970c183772d793057ddfcd81f805e8d5\n\n"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/a6461sxvrvzg1.jpeg",
+            "title": "Could this be a clue?",
+            "date": "2026-05-08T09:15:24.000Z",
+            "language": "pt",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1t6tq4i/whats_the_point_of_the_private_island/",
+            "title": "what’s the point of the private island?",
+            "date": "2026-05-08T01:29:23.000Z",
+            "language": "en",
+            "snippet": "if farm moved to the garden, then are private islands just a place to slap down your minions and enchant table and forget about? i’ve always loved building in minecraft but it seems like there’s no po"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/feedthebeast/comments/1t6rnj0/is_there_a_mod_that_just_changes_end_islands/",
+            "title": "Is there a mod that JUST changes end islands verticality and nothing else?",
+            "date": "2026-05-07T23:55:16.000Z",
+            "language": "pt",
+            "snippet": "I got Unusual End as the core end mod in my pack, but it's one of the ones which don't remove height limit on islands, so the end still looks very flat. Is there a mod that only changes that and doesn"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/VintageStory/comments/1t6mgj7/share_your_worldgen_settings_and_worldgen_mod/",
+            "title": "Share your Worldgen Settings and Worldgen Mod Combinations",
+            "date": "2026-05-07T20:27:41.000Z",
+            "language": "en",
+            "snippet": "I'd like to know what mod combinations and settings make for the most realistic/immersive game world. Especially what people use when pairing Terra Prety and Algernon's Watersheds.\n\nI've been looking "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1t6leue",
+            "title": "Started a new world today and got a crazy pirate's chest haul right near spawn! Early game jackpot!",
+            "date": "2026-05-07T19:51:17.000Z",
+            "language": "pt",
+            "snippet": "It's even crazier because I spawned in on a small island with very little iron. I needed iron so badly. The only thing that would make it better is a notch apple lol. Coordinates and seed provided to "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t6k52j/modded_minecraft_smp/",
+            "title": "Modded Minecraft SMP",
+            "date": "2026-05-07T19:05:34.000Z",
+            "language": "en",
+            "snippet": "﻿⚙️﻿ WELCOME TO BluePrint SMP 🌎﻿ \n\nIndustrialize. Explore. Conquer the skies. \n\n﻿\n\nAre you tired of bloated modpacks that lose Minecraft’s soul? BluePrint SMP is a carefully crafted Vanilla+ Create-p"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/feedthebeastservers/comments/1t6jo21/16_the_collective_sky_lands_airship_survival_semi/",
+            "title": "(16+) The Collective, Sky Lands!! Airship Survival (Semi- public)",
+            "date": "2026-05-07T18:49:24.000Z",
+            "language": "en",
+            "snippet": "Welcome to The Collective, SkyLands SMP!!!\n\nThis server is intended to bridge the gap between airship style survival game play and modern Modded Minecraft!  \nEver since I was a kid, I have wanted a mi"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1t6jb83/16_the_collective_sky_island_airship_survival/",
+            "title": "(16+) The Collective, Sky Island Airship survival! (Semi Public)",
+            "date": "2026-05-07T18:36:55.000Z",
+            "language": "en",
+            "snippet": "Welcome to The Collective, SkyLands SMP!!!\n\nThis server is intended to bridge the gap between airship style survival game play and modern Modded Minecraft!  \nEver since I was a kid, I have wanted a Mi"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/tar8zjugoqzg1.jpeg",
+            "title": "If Aphmau didn't just play Minecraft nowadays...",
+            "date": "2026-05-07T16:07:20.000Z",
+            "language": "en",
+            "snippet": "I honestly wish Jess ventured out of doing Minecraft nowadays. I'd honestly enjoy a simple playthrough of her playing this game. She could even make all her MyStreet/Diaries characters on the Island. "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/DigitalCodeSELL/comments/1t6d8qu/selling_double_discount_sale_huge_list_of_1100/",
+            "title": "(Selling) DOUBLE DISCOUNT SALE!! Huge List Of 1100+ Movies! Lots Of New And Rare Titles!",
+            "date": "2026-05-07T15:05:40.000Z",
+            "language": "en",
+            "snippet": "# DOUBLE DISCOUNT SALE!\n\n# $2.00 off for every $10 spent (multiple items)!!\n\n**\\*\\*Prices firm, except for discount\\*\\***\n\n**\\*\\*I accept PayPal, Venmo, &amp; Cashapp\\*\\***\n\n**\\*\\*Codes are always spl"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1t6cv0p/name_a_bad_video_game_made_by_a_polish_developer/",
+            "title": "Name a bad video game made by a Polish developer ",
+            "date": "2026-05-07T14:52:16.000Z",
+            "language": "pt",
+            "snippet": "This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/AlignmentChartFills/comments/1t6cv0p)"
+          }
+        ],
+        "heat": {
+          "score": 100,
+          "label": "Hot",
+          "lastMentionDate": "2026-05-08T09:18:39.000Z"
+        }
+      }
+    },
+    {
+      "id": "19031eaae431e464",
+      "hostname": "play.islandpulse.io",
+      "port": 25565,
+      "name": "play.islandpulse.io",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": null,
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:27.647Z"
+    },
+    {
+      "id": "6ab4bcfa3d4bb8a0",
+      "hostname": "skyblock.world",
+      "port": 25565,
+      "name": "skyblock.world",
+      "motd": "skyblock.world - 1.19\nMerry Christmas!",
+      "version": "Paper 1.19",
+      "playersOnline": 0,
+      "maxPlayers": 50,
+      "ping": 382,
+      "online": true,
+      "lastSeen": "2026-05-08T09:45:28.013Z",
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:28.013Z"
+    },
+    {
+      "id": "4fd30670c4cb9360",
+      "hostname": "islands.net",
+      "port": 25565,
+      "name": "islands.net",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": null,
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:32.630Z"
+    },
+    {
+      "id": "91bb47efcf96f822",
+      "hostname": "blockislands.com",
+      "port": 25565,
+      "name": "blockislands.com",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": null,
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:32.631Z"
+    },
+    {
+      "id": "9f05142394d3acdd",
+      "hostname": "skyblock-survival.com",
+      "port": 25565,
+      "name": "skyblock-survival.com",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:32.643Z"
+    },
+    {
+      "id": "281c07dc9355d261",
+      "hostname": "play.bentobox.net",
+      "port": 25565,
+      "name": "play.bentobox.net",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": null,
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:32.644Z"
+    },
+    {
+      "id": "8b6c4c852f2d340a",
+      "hostname": "oneblock.games",
+      "port": 25565,
+      "name": "oneblock.games",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": "OneBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:32.645Z"
+    },
+    {
+      "id": "274b8fe0f7667379",
+      "hostname": "acidisland.net",
+      "port": 25565,
+      "name": "acidisland.net",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": "AcidIsland",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:32.646Z"
+    },
+    {
+      "id": "85ff2a7067abf1bd",
+      "hostname": "caveblock.games",
+      "port": 25565,
+      "name": "caveblock.games",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": "CaveBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:32.648Z"
+    },
+    {
+      "id": "0c20cc2ed89b6a72",
+      "hostname": "skygrid.net",
+      "port": 25565,
+      "name": "skygrid.net",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": "SkyGrid",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:37.632Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:23:10.492Z",
+        "contacts": [
+          {
+            "kind": "youtube",
+            "value": "https://youtu.be/idZdc47uOKw",
+            "url": "https://youtu.be/idZdc47uOKw",
+            "source": "forum",
+            "priority": 4
+          }
+        ],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/y4r1w5c25kyg1.jpeg",
+            "title": "EVTOL: the next mobility frontier. EVEX JOBY HOVR...(North America Conference &amp; Awards 2026 — NAAMCE)",
+            "date": "2026-05-01T17:03:45.000Z",
+            "language": "en",
+            "snippet": "Still early but JOBY giving huge steps. 2027 will be huge for all."
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Unstable_Universe/comments/1swypzr/unstable_farlands/",
+            "title": "Unstable Farlands",
+            "date": "2026-04-27T09:33:58.000Z",
+            "language": "en",
+            "snippet": "What mods were used to create the farlands skygrid and the void etc.  \nare those even mods or just axiom and worldedit?"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/3jbvfnfk6mxg1.jpeg",
+            "title": "How do I get rid of these over glorified podcasts ads",
+            "date": "2026-04-26T22:51:38.000Z",
+            "language": "pt",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1sr4dmx",
+            "title": "I'm trying to track down a java server I briefly played on as a kid. Any ideas?",
+            "date": "2026-04-20T21:56:17.000Z",
+            "language": "pt",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1sk24ss/request_for_a_custom_dimension_bedrock_behavior/",
+            "title": "Request for a custom dimension bedrock behavior pack",
+            "date": "2026-04-13T05:53:35.000Z",
+            "language": "pt",
+            "snippet": "So i heard that bedrock now has custom dimension support, but I am too stupid to be able to figure out how to get want I want.  \nBasically, I'm looking for a recreation of java's infinite dimensions a"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/midjourney/comments/1sabrlz/skygrid_zone/",
+            "title": "Skygrid Zone",
+            "date": "2026-04-02T08:37:46.000Z",
+            "language": "en",
+            "snippet": "https://preview.redd.it/kcyuwnw9oqsg1.jpg?width=928&amp;format=pjpg&amp;auto=webp&amp;s=bb9a8ff8d170220b3f7924fffcdb77ce627657fd\n\nhttps://preview.redd.it/2q516jv9oqsg1.jpg?width=928&amp;format=pjpg&am"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1s27f88",
+            "title": "Fraud Encore Level design Guesses",
+            "date": "2026-03-24T07:48:25.000Z",
+            "language": "en",
+            "snippet": "There's some bullshittery in the level design that I think Hakita has yet to pull so here are my guesses:\n\n  \n**Curved hallways**\n\nwith the twisting hallway in 8-4, I'm thinking there'd be some curved"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/d8j4wzevgcog1.png",
+            "title": "I think somethings wrong with my Skyblock... (Secret Seed Idea)",
+            "date": "2026-03-11T04:37:21.000Z",
+            "language": "en",
+            "snippet": "Anyone up for some... Skygrid?  \nBut genuinely, I think it'd be cool if skygrid occurred when combining Skyblock with \"i am error\" or something. Maybe there could be 2 versions: one where its just nor"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/mcstaff/comments/1rc04dw/looking_for_staff_builders_moderators_and_admins/",
+            "title": "Looking for staff - Builders, Moderators, and admins",
+            "date": "2026-02-22T22:43:18.000Z",
+            "language": "en",
+            "snippet": "# Hello! We have a new server that is quickly growing and that could use some more staff if anyone is interested in joining! We have just over 50 players in only a week of opening! We are focused on c"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1r8augr/nebula_events_new_server/",
+            "title": "Nebula Events [New server]",
+            "date": "2026-02-18T18:21:35.000Z",
+            "language": "en",
+            "snippet": "Hello! We have a new server that focuses on creating small themed events, similar to smp or civilization type stuff, for players to enjoy. They will be both modded and vanilla. We also already have a "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/GSU/comments/1r6q15b/new_minecraft_server/",
+            "title": "New minecraft server",
+            "date": "2026-02-16T23:44:50.000Z",
+            "language": "en",
+            "snippet": "Hi! I recently just opened up a new minecraft server and would love to have more gsu peoples on it. We have a long term vanilla survival world, but we are also working hard to add other worlds such as"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1r5wqvx/help_with_saves/",
+            "title": "Help with saves",
+            "date": "2026-02-16T01:56:11.000Z",
+            "language": "en",
+            "snippet": "I got the neoforge skygrid mod on curseforge and want to take the save to put on my paper server, but for some reason when I try to import it into multiverse, it says that the overworld settings are m"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://youtu.be/idZdc47uOKw",
+            "title": "in this video, i got 25 minecraft players all in one single skygrid world with a goal of beating the game, every player had 10 minutes to do whatever they could to help progress, but with no communication is it even possible to do this?",
+            "date": "2026-01-10T21:27:00.000Z",
+            "language": "pt",
+            "snippet": ""
+          }
+        ],
+        "heat": {
+          "score": 76,
+          "label": "Hot",
+          "lastMentionDate": "2026-05-01T17:03:45.000Z"
+        }
+      }
+    },
+    {
+      "id": "39554e7bf20504fe",
+      "hostname": "poseidon.games",
+      "port": 25565,
+      "name": "poseidon.games",
+      "motd": "Tekkit SMP Server v1.0.5",
+      "version": "1.12.2",
+      "playersOnline": 0,
+      "maxPlayers": 16,
+      "ping": 1000,
+      "online": true,
+      "lastSeen": "2026-05-08T09:45:33.631Z",
+      "gamemode": "Poseidon",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:33.631Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:22:36.517Z",
+        "contacts": [],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1t72g5v",
+            "title": "İlk Pokemon Heart Gold Denemem (Part-3)",
+            "date": "2026-05-08T09:05:03.000Z",
+            "language": "en",
+            "snippet": "Evet. Jotho'da neredeyse Pokemon yakalanabilecek her noktada Pokemon yakaladım\n\nHeracross'ta yakaladım ama Scizor aşırı kullanışlı olduğu için Heracross'u yedekte tutmaya karar verdim.\n\nVe hayattaki t"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/sideprojects/comments/1t727wm/heres_my_start_up_project/",
+            "title": "Here’s my start up project",
+            "date": "2026-05-08T08:52:15.000Z",
+            "language": "en",
+            "snippet": "Moby Dick OS - Concept Specification\n\n■ Core Philosophy\n\nA Linux distribution (Arch-based) designed to return sovereignty to the user.\n\nNot just a tool, but a narrative-driven operating system.\n\nFocus"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1t71tz5",
+            "title": "A quite unorthodox request: in this coin, Poseidon is describes as wearing a crown made out of seaweed. Could you identify the possible species / a similar one? Otherwise, what plant do you think it is?",
+            "date": "2026-05-08T08:29:26.000Z",
+            "language": "pt",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1t6z83d",
+            "title": "121kg max orange tabby for?",
+            "date": "2026-05-08T06:02:55.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/OnePieceSpoilers/comments/1t6z5rx/heres_how_monkey_d_dragon_can_be_rain_god/",
+            "title": "Here's how Monkey D Dragon can be Rain God!",
+            "date": "2026-05-08T05:59:44.000Z",
+            "language": "en",
+            "snippet": "1. Wind Out, Rain Water in. Wonders why he couldnt simply put out the fire in Sabo's Backyard the Gray Terminal?\n2. Cosplays as the Witch Queen from Black Clover. (With couple of extra hands)\n\n**3. Jo"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1t6yxgc",
+            "title": "My latest vs first Mii",
+            "date": "2026-05-08T05:47:26.000Z",
+            "language": "en",
+            "snippet": "The first mii is my oc Nenetl, while the other is my oc version of Poseidon. Both essentially have the same fish scale/ear design the main difference was getting a pen. 😅 Regardless I don’t think I’v"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1t6yd9t",
+            "title": "Meet me under the Coffee Tree ☕️🌳☺️",
+            "date": "2026-05-08T05:17:07.000Z",
+            "language": "en",
+            "snippet": "A tribute to childhood – finally finished!\n\nFull disclosure: If you just want a quick overview, the first 1-3 screenshots should be enough. But if you’re into the details and the interior, feel free t"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/subnautica/comments/1t6ybqi/yet_again_what_are_the_names_of_your_vehicles/",
+            "title": "Yet again.. what are the names of your vehicles? (Subnautica 1)",
+            "date": "2026-05-08T05:14:45.000Z",
+            "language": "en",
+            "snippet": "Mine are\n\nCyclops: Poseidon\n\nSeamoth: Artemis\n\nPrawn: Ares or Hades"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/gallery/1t6x6vs",
+            "title": "Is golden crown power bugged?",
+            "date": "2026-05-08T04:14:28.000Z",
+            "language": "en",
+            "snippet": "I’m not exactly sure what’s going on here. The curse says I need 200 golden crown power to lift the curse. I have some golden items equipped, and energy so my workers are working. Do I need to get the"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/AYearOfLesMiserables/comments/1t6wxil/20260508_friday_511_jean_valjean_the_war_between/",
+            "title": "2026-05-08 Friday: 5.1.1 ; Jean Valjean / The War Between Four Walls (La guerre entre quatre murs) / The Charybdis of the Faubourg Saint-Antoine and the Scylla of the Faubourg du Temple (La Charybde du faubourg Saint-Antoine et la Scylla du faubourg du Temple)",
+            "date": "2026-05-08T04:01:40.000Z",
+            "language": "fr",
+            "snippet": "# Final volume of Les Miserables, Volume 5, Jean Valjean\n\nImage: [Volume 5: Jean Valjean Frontispiece](https://www.gutenberg.org/cache/epub/135/images/5frontispiece.jpg)\n\n[Volume 5: Jean Valjean Front"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/ShuumatsuNoValkyrie/comments/1subgbu/poseidons_trident_in_minecraft/",
+            "title": "Poseidon's Trident in Minecraft",
+            "date": "2026-04-24T10:08:07.000Z",
+            "language": "en",
+            "snippet": "https://preview.redd.it/7e7dbrpi44xg1.png?width=2415&amp;format=png&amp;auto=webp&amp;s=bac1f0e4d31a68c65dd1c3abd0dea2f1af0d21ac\n\n"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftARGs/comments/1ssb6ip/arg_ideas_book_inspiration/",
+            "title": "arg... ideas??!!!?!?!?!!: book inspiration",
+            "date": "2026-04-22T04:31:20.000Z",
+            "language": "en",
+            "snippet": "let's say you completely disregard my previous posts about not liking sfawtde copies and you want to do something similar to them (not saying every arg based on media is a copy of sfatwde) and you wan"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/u_Inevitable_Survey_21/comments/1sqdn2j/matchups_both_original_and_revamps/",
+            "title": "Matchups (Both Original and Revamps)",
+            "date": "2026-04-20T03:18:40.000Z",
+            "language": "en",
+            "snippet": "Original Matchups:\n\n[Sonic The Hedgehog vs Usagi Tsukino (Archie Comics vs Sailor Moon)](https://www.reddit.com/r/DeathBattleMatchups/comments/1r6omay/sonic_the_hedgehog_vs_usagi_tsukino_archie_comics"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sl800d/1941_is_what_im_picking_for_05_for_the_1970s/",
+            "title": "1941 is what I’m picking for 0/5 for the 1970s, what’s a 1/5 for the 1960s? ",
+            "date": "2026-04-14T12:59:41.000Z",
+            "language": "pt",
+            "snippet": "This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/AlignmentChartFills/comments/1sl800d)"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sk9z77/wall_street_wins_35_for_the_1980s_wrapping_up_the/",
+            "title": "Wall Street wins 3/5 for the 1980s, wrapping up the 1980s, what’s a 0/5 for the 1970s?",
+            "date": "2026-04-13T12:54:31.000Z",
+            "language": "pt",
+            "snippet": "This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/AlignmentChartFills/comments/1sk9z77)"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sjic55/swiss_family_robinson_wins_25_for_the_1960s_whats/",
+            "title": "Swiss Family Robinson wins 2/5 for the 1960s, what’s a 3/5 for the 1980s?",
+            "date": "2026-04-12T15:58:24.000Z",
+            "language": "pt",
+            "snippet": "This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/AlignmentChartFills/comments/1sjic55)"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/6xtdhai16oug1.png",
+            "title": "So I had a crazy idea let's just make an epic the musical Minecraft map base on the art style the maps and the looks of the Islands both old and model age",
+            "date": "2026-04-12T02:19:49.000Z",
+            "language": "pt",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1shpm1c/titanic_wins_45_for_the_1990s_whats_a_25_for_the/",
+            "title": "Titanic wins 4/5 for the 1990s, what’s a 2/5 for the 1960s?",
+            "date": "2026-04-10T15:21:17.000Z",
+            "language": "pt",
+            "snippet": "This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/AlignmentChartFills/comments/1shpm1c)"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sgo1q2/son_of_the_mask_wins_15_for_the_2000s_whats_a_45/",
+            "title": "Son of the Mask wins 1/5 for the 2000s, what’s a 4/5 for the 1990s?",
+            "date": "2026-04-09T12:20:40.000Z",
+            "language": "pt",
+            "snippet": "This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/AlignmentChartFills/comments/1sgo1q2)"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sfswd5/back_to_the_future_wins_55_for_the_1980s_whats_a/",
+            "title": "Back to the Future wins 5/5 for the 1980s, what’s a 1/5 for the 2000s?",
+            "date": "2026-04-08T13:29:42.000Z",
+            "language": "pt",
+            "snippet": "This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/AlignmentChartFills/comments/1sfswd5)"
+          }
+        ],
+        "heat": {
+          "score": 100,
+          "label": "Hot",
+          "lastMentionDate": "2026-05-08T09:05:03.000Z"
+        }
+      }
+    },
+    {
+      "id": "ba07e898527eb8c7",
+      "hostname": "skyblock-economy.com",
+      "port": 25565,
+      "name": "skyblock-economy.com",
+      "motd": "",
+      "version": "Unknown",
+      "playersOnline": 0,
+      "maxPlayers": 0,
+      "ping": null,
+      "online": false,
+      "lastSeen": null,
+      "gamemode": "BSkyBlock",
+      "islandPulseStatus": null,
+      "islandPulseData": null,
+      "fetchedAt": "2026-05-08T09:45:32.651Z",
+      "outreach": {
+        "scannedAt": "2026-05-08T09:22:00.291Z",
+        "contacts": [
+          {
+            "kind": "youtube",
+            "value": "https://youtu.be/ln6RKo6i7dE",
+            "url": "https://youtu.be/ln6RKo6i7dE",
+            "source": "forum",
+            "priority": 4
+          }
+        ],
+        "mentions": [
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/mcservers/comments/1s0kkm0/awakenmc_smp_economy_beta_testing_crossplay_1211/",
+            "title": "AwakenMC [SMP] {Economy} {Beta Testing} {Crossplay} {1.21.1+}",
+            "date": "2026-03-22T12:39:09.000Z",
+            "language": "en",
+            "snippet": "\n\nAwakenMC is hosting a closed beta program exclusively for Skyblock. This will be invitation only! As a Beta Tester, you will have the opportunity to help break the limits of Skyblock's economy, test"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/hypixel/comments/1rzbv79/i_built_skyblockflipperscom_an_allinone_ah_sniper/",
+            "title": "I built SkyblockFlippers.com — an all-in-one AH Sniper, Bazaar Flipper &amp; AI Chatbot for Hypixel Skyblock",
+            "date": "2026-03-20T23:29:36.000Z",
+            "language": "en",
+            "snippet": "Hey everyone,\n\nI've been playing Skyblock for a while now, and like most of you, I got tired of jumping between 5 different tabs, outdated spreadsheets, and cluttered tools just to find profitable fli"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1rl0kqu/how_the_iranianus_conflict_affects_the_bazaar/",
+            "title": "How the Iranian-US Conflict affects the bazaar prices and the long-term systemic consequences on the skyblock economy",
+            "date": "2026-03-04T23:00:28.000Z",
+            "language": "en",
+            "snippet": "Over the last week, a number of Bazaar items  especially mid-tier items like dragon essence shown unexpected price volatility. this movement lines up with the escalation of the us-iranian conflict\n\nht"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1qqd397/has_anyone_made_an_indepth_analysis_of_the/",
+            "title": "Has anyone made an in-depth analysis of the Hypixel Skyblock economy?",
+            "date": "2026-01-29T16:21:18.000Z",
+            "language": "en",
+            "snippet": "Of its system, how it functions, what are the effects etc. "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/minehut/comments/1p2slih/revival_plan_for_minehut/",
+            "title": "Revival Plan for Minehut",
+            "date": "2025-11-21T07:42:23.000Z",
+            "language": "en",
+            "snippet": "I’ve written this due to the recent decline in members and active people in minehut compared to the rising members of competition, I love Minehut and want to see it thrive as it was in 2022-2023, I wr"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1n1q9we/how_would_you_fix_the_skyblock_economy/",
+            "title": "how would YOU \"fix\" the skyblock economy",
+            "date": "2025-08-27T19:15:06.000Z",
+            "language": "en",
+            "snippet": "you work for hypixel and have been hired to \"fix\" the skyblock economy.\n\nyou can change anything and everything regarding the game BUT you can still get fired if you mess up\n\nHere's what gets you fire"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/chanceme/comments/1mxjlak/chance_me_t20/",
+            "title": "chance me t20",
+            "date": "2025-08-22T21:51:53.000Z",
+            "language": "en",
+            "snippet": "Demographics:\n\t•\tFemale, Indian, CBSE board\n\t•\tInternational applicant\nAid would be nice to have but not needed \n\nIntended Major(s):\n\t•\tEconomics + Data Science (or just Econ)\n\nAcademics:\n\t•\tGrades:\n\t"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://youtu.be/ln6RKo6i7dE",
+            "title": "Visual representation of the history of the skyblock economy.",
+            "date": "2025-07-06T14:39:13.000Z",
+            "language": "en",
+            "snippet": "I've been digging into the Hypixel Skyblock economy, and I've put together a video showcasing a treemap of the Bazaar's historical data. It's super insightful because you can pinpoint exact moments, l"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1l826xi/skyblock_economy/",
+            "title": "Skyblock economy.",
+            "date": "2025-06-10T15:48:37.000Z",
+            "language": "en",
+            "snippet": "So I'm doing a thing for a financial literacy course where we have to take a thing from the internet be it video, videogame or something else and do a presentation on it. I chose the skyblock economy."
+          },
+          {
+            "platform": "reddit",
+            "url": "https://i.redd.it/0ska9sw1m36f1.png",
+            "title": "🥲",
+            "date": "2025-06-10T13:04:06.000Z",
+            "language": "en",
+            "snippet": ""
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1hvgd9h/just_bucket_fresh_wipe_smp_skyblock_economy/",
+            "title": "Just Bucket Fresh Wipe! [smp] {skyblock} {economy}",
+            "date": "2025-01-07T01:53:19.000Z",
+            "language": "en",
+            "snippet": "JustBucket Minecraft Server!\n\nJust Reset!\n\nCustom World generation. Custom Items, tools armor food etc.\n\nActive, friendly community &amp; staff!\n\nMany Ranks and positions available!\n\nAt Just Bucket, w"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/AwakenMC/comments/1ft9kyx/skyblock_insight/",
+            "title": "Skyblock Insight",
+            "date": "2024-09-30T23:14:41.000Z",
+            "language": "en",
+            "snippet": "**We are working hard to bring new ways to make both of our content and Skyblock experience engaging.** Our Skyblock server is underway; it will be a great experience to enhance your knowledge of Skyb"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1f8hzcf/just_bucket_fresh_wipe_smp_skyblock_economy/",
+            "title": "Just Bucket Fresh Wipe! [smp] {skyblock} {economy}",
+            "date": "2024-09-04T02:13:45.000Z",
+            "language": "en",
+            "snippet": "RESET YESTERDAY!\n\nJustBucket Minecraft Server!\n\nActive, friendly community &amp; staff!\n\nMany Ranks and positions available!\n\nAt Just Bucket, we still have the small server with a home feel to it, yet"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/mcservers/comments/1f8hyzs/just_bucket_fresh_wipe_smp_skyblock_economy/",
+            "title": "\nJust Bucket Fresh Wipe! [smp] {skyblock} {economy}",
+            "date": "2024-09-04T02:13:12.000Z",
+            "language": "en",
+            "snippet": "JustBucket Minecraft Server!\n\nActive, friendly community &amp; staff!\n\nMany Ranks and positions available!\n\nAt Just Bucket, we still have the small server with a home feel to it, yet with the producti"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftNL/comments/1f45xc7/minecraft_server_van_ons/",
+            "title": "Minecraft server van ons!",
+            "date": "2024-08-29T15:54:14.000Z",
+            "language": "en",
+            "snippet": "hoi allemaal, wij hebben een kleine minecraft server, het is een skyblock economie server en we zoeken nog wat spelers, in de discord zitten op het moment 100 mensen maar 5-10 spelen ook echt. het is "
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/HypixelSkyblock/comments/1ezyzck/skyblock_economy_is_a_pyramid_schemeit_could_be/",
+            "title": "Skyblock economy is a pyramid scheme(it could be)",
+            "date": "2024-08-24T06:41:25.000Z",
+            "language": "pt",
+            "snippet": "disclaimer: nerd alert\n\nSo Minecraft itself is getting old. 8-year-olds who bought Minecraft in 2012 have become an adult. As Minecraft users get old, Skyblock users get old too. And that causes a big"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServerShare/comments/1cfesbt/just_bucket_smp_mcmmo_economy_jobs_tournaments/",
+            "title": "Just Bucket! [SMP] {McMMO} {Economy} {Jobs} {Tournaments} {SkyBlock}",
+            "date": "2024-04-28T19:30:20.000Z",
+            "language": "en",
+            "snippet": "This server is doing great right now! \n\nActive, and friendly community and staff! Join Today!\n\n&amp;#x200B;\n\nJUST BUCKET - SMP,Skyblock, Economy, Jobs, Fishing Tournaments, Ranks, Discord, active comm"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/MinecraftServer/comments/1cfes2w/just_bucket_smp_mcmmo_economy_jobs_tournaments/",
+            "title": "Just Bucket! [SMP] {McMMO} {Economy} {Jobs} {Tournaments} {SkyBlock}",
+            "date": "2024-04-28T19:30:06.000Z",
+            "language": "en",
+            "snippet": "This server is doing great right now! \n\nActive, and friendly community and staff! Join Today!\n\n&amp;#x200B;\n\nJUST BUCKET - SMP,Skyblock, Economy, Jobs, Fishing Tournaments, Ranks, Discord, active comm"
+          }
+        ],
+        "heat": {
+          "score": 43,
+          "label": "Cold",
+          "lastMentionDate": "2026-03-22T12:39:09.000Z"
+        }
+      }
     }
   ]
 }

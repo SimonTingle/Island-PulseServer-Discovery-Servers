@@ -1,11 +1,14 @@
 import { NextResponse } from "next/server";
 import { readCache, writeCache, mergeServers } from "@/lib/storage";
-import { discoverServers } from "@/lib/serverDiscovery";
+import { discoverServers, loadDiscoveredServers } from "@/lib/serverDiscovery";
 import { fetchRegisteredServers } from "@/lib/islandpulseClient";
 import type { ServerEntry } from "@/lib/types";
 
 export async function POST() {
   const start = Date.now();
+
+  // Pre-fetch API-discovered list to report its size in the response
+  const apiDiscovered = await loadDiscoveredServers();
 
   // Discover public SkyBlock servers + fetch IslandPulse registered servers in parallel
   const [discovered, registered] = await Promise.allSettled([
@@ -62,6 +65,8 @@ export async function POST() {
   return NextResponse.json({
     success: true,
     serverCount: merged.length,
+    seedCount: 30,
+    apiDiscoveredCount: apiDiscovered.length,
     duration: Date.now() - start,
   });
 }

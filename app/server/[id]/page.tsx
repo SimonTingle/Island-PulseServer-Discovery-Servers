@@ -4,11 +4,73 @@ import { readCache } from "@/lib/storage";
 import { pingServer } from "@/lib/minecraft";
 import IslandPulseBadge from "@/components/IslandPulseBadge";
 import CopyButton from "@/components/CopyButton";
+import ScanOutreachButton from "@/components/ScanOutreachButton";
+import type { HeatScore, ContactChannel, ForumMention } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
 function fmt(n: number) {
   return n.toLocaleString();
+}
+
+function HeatBadge({ heat }: { heat: HeatScore }) {
+  const colors: Record<string, string> = {
+    Hot: "bg-orange-900/60 text-orange-300 border-orange-700",
+    Warm: "bg-yellow-900/60 text-yellow-300 border-yellow-700",
+    Cold: "bg-sky-900/60 text-sky-300 border-sky-700",
+    Frozen: "bg-slate-800 text-slate-400 border-slate-700",
+  };
+  return (
+    <span className={`inline-flex items-center gap-1 rounded px-2 py-0.5 text-xs font-bold uppercase tracking-widest border ${colors[heat.label]}`}>
+      {heat.label} {heat.score}
+    </span>
+  );
+}
+
+function ContactPill({ contact }: { contact: ContactChannel }) {
+  const labels: Record<string, string> = {
+    discord: "Discord",
+    website: "Website",
+    email: "Email",
+    twitter: "Twitter/X",
+    youtube: "YouTube",
+    other: "Link",
+  };
+  return (
+    <a
+      href={contact.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-1.5 text-xs bg-slate-800 border border-slate-700 text-slate-300 hover:text-cyan-300 hover:border-cyan-700 px-3 py-1.5 rounded-lg transition-colors"
+    >
+      {labels[contact.kind] ?? contact.kind}
+    </a>
+  );
+}
+
+function MentionRow({ mention }: { mention: ForumMention }) {
+  return (
+    <div className="flex items-start gap-3 py-2 px-3 rounded-lg bg-slate-900/60 border border-slate-800">
+      <div className="flex-1 min-w-0">
+        <a
+          href={mention.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-cyan-400 hover:text-cyan-300 transition-colors line-clamp-1"
+        >
+          {mention.title}
+        </a>
+        {mention.snippet && (
+          <p className="text-xs text-slate-500 mt-0.5 line-clamp-2">{mention.snippet}</p>
+        )}
+      </div>
+      <div className="flex flex-col items-end gap-0.5 flex-shrink-0 text-xs text-slate-600">
+        <span>{mention.platform}</span>
+        <span className="uppercase">{mention.language}</span>
+        {mention.date && <span>{new Date(mention.date).toLocaleDateString()}</span>}
+      </div>
+    </div>
+  );
 }
 
 function StatusDot({ online }: { online: boolean }) {
@@ -219,6 +281,58 @@ export default async function ServerDetailPage({
           </p>
         </div>
       )}
+
+      {/* Outreach Intelligence */}
+      <div className="rounded-xl border border-slate-800 bg-slate-900/20 p-6 mb-8">
+        <div className="flex items-center justify-between flex-wrap gap-3 mb-5">
+          <div className="flex items-center gap-3">
+            <h2 className="text-lg font-bold text-slate-100">Outreach Intelligence</h2>
+            {server.outreach && <HeatBadge heat={server.outreach.heat} />}
+          </div>
+          <ScanOutreachButton serverId={server.id} lastScanned={server.outreach?.scannedAt ?? null} />
+        </div>
+
+        {server.outreach ? (
+          <>
+            {server.outreach.contacts.length > 0 && (
+              <div className="mb-6">
+                <h3 className="text-xs uppercase tracking-widest text-slate-500 mb-3">Contact Channels</h3>
+                <div className="flex flex-wrap gap-2">
+                  {server.outreach.contacts.map((c) => (
+                    <ContactPill key={c.url} contact={c} />
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {server.outreach.mentions.length > 0 ? (
+              <div>
+                <h3 className="text-xs uppercase tracking-widest text-slate-500 mb-3">
+                  Forum Mentions — where to advertise ({server.outreach.mentions.length})
+                </h3>
+                <div className="space-y-2">
+                  {server.outreach.mentions.slice(0, 10).map((m) => (
+                    <MentionRow key={m.url} mention={m} />
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <p className="text-slate-500 text-sm">No forum mentions found.</p>
+            )}
+
+            <p className="text-xs text-slate-600 mt-4">
+              Last scanned: {new Date(server.outreach.scannedAt).toLocaleString()}
+              {server.outreach.heat.lastMentionDate && (
+                <> · Last mention: {new Date(server.outreach.heat.lastMentionDate).toLocaleDateString()}</>
+              )}
+            </p>
+          </>
+        ) : (
+          <p className="text-slate-500 text-sm">
+            No outreach data yet. Click &quot;Scan Now&quot; to discover contact channels and web mentions for this server.
+          </p>
+        )}
+      </div>
 
       {/* Meta */}
       <div className="text-xs text-slate-600 space-y-1">

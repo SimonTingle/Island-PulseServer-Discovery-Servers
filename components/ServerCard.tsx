@@ -1,6 +1,20 @@
 import Link from "next/link";
-import type { ServerEntry } from "@/lib/types";
+import type { ServerEntry, HeatLabel } from "@/lib/types";
 import IslandPulseBadge from "./IslandPulseBadge";
+
+function HeatBadge({ label, score }: { label: HeatLabel; score: number }) {
+  const styles: Record<HeatLabel, string> = {
+    Hot: "text-orange-400",
+    Warm: "text-yellow-400",
+    Cold: "text-sky-400",
+    Frozen: "text-slate-500",
+  };
+  return (
+    <span className={`text-xs font-semibold ${styles[label]}`}>
+      {label} {score}
+    </span>
+  );
+}
 
 function PlayerBar({ online, max }: { online: number; max: number }) {
   const pct = max > 0 ? Math.min(100, (online / max) * 100) : 0;
@@ -68,6 +82,9 @@ export default function ServerCard({ server }: { server: ServerEntry }) {
           <span className="text-xs text-cyan-600">
             {server.islandPulseData.totalIslands} islands
           </span>
+        )}
+        {server.outreach && (
+          <HeatBadge label={server.outreach.heat.label} score={server.outreach.heat.score} />
         )}
       </div>
     </Link>

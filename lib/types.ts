@@ -13,6 +13,46 @@ export interface IslandPulseData {
   tier: "free" | "pro";
 }
 
+// ─── Outreach Intelligence ────────────────────────────────────────────────────
+
+export type ContactChannelKind = "discord" | "website" | "email" | "twitter" | "youtube" | "other";
+
+export interface ContactChannel {
+  kind: ContactChannelKind;
+  value: string;
+  url: string;
+  source: "motd" | "mcsrvstat" | "forum";
+  priority: number; // 1=discord 2=website 3=email 4=social 5=other
+}
+
+export type ForumPlatform = "reddit" | "planetminecraft" | "minecraftforum" | "youtube" | "twitter" | "duckduckgo" | "other";
+
+export interface ForumMention {
+  platform: ForumPlatform;
+  url: string;
+  title: string;
+  date: string | null;
+  language: string;
+  snippet: string;
+}
+
+export type HeatLabel = "Hot" | "Warm" | "Cold" | "Frozen";
+
+export interface HeatScore {
+  score: number;
+  label: HeatLabel;
+  lastMentionDate: string | null;
+}
+
+export interface OutreachData {
+  scannedAt: string;
+  contacts: ContactChannel[];
+  mentions: ForumMention[];
+  heat: HeatScore;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 export interface ServerEntry {
   id: string;
   hostname: string;
@@ -29,6 +69,7 @@ export interface ServerEntry {
   islandPulseStatus: "free" | "pro" | null;
   islandPulseData: IslandPulseData | null;
   fetchedAt: string;
+  outreach?: OutreachData;
 }
 
 export interface ServersCache {

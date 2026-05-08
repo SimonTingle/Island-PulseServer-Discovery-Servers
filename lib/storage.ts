@@ -30,6 +30,9 @@ export function mergeServers(
       s.islandPulseData = prev.islandPulseData;
       s.islandPulseStatus = prev.islandPulseStatus;
     }
+    if (prev?.outreach && !s.outreach) {
+      s.outreach = prev.outreach;
+    }
     map.set(s.id, s);
   }
   return Array.from(map.values());
