@@ -19,7 +19,7 @@ export default function ScanAllOutreachButton({ serverCount }: Props) {
     setResult(null);
     const start = Date.now();
     try {
-      const res = await fetch("/api/servers/scan-outreach", { method: "POST" });
+      const res = await fetch("/api/servers/scan-outreach?force=true", { method: "POST" });
       const data = await res.json();
       const duration = ((Date.now() - start) / 1000).toFixed(1);
       if (data.success) {

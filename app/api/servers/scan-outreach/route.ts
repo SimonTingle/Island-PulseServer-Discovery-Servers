@@ -27,12 +27,13 @@ export async function POST(req: Request) {
     })
   );
 
-  // Apply results back to cache
+  // Apply results back to cache (strip internal _debug field before persisting)
   for (const result of results) {
     if (result.status === "fulfilled") {
       const idx = cache.servers.findIndex((s) => s.id === result.value.id);
       if (idx !== -1) {
-        cache.servers[idx].outreach = result.value.outreach;
+        const { _debug: _, ...cleanOutreach } = result.value.outreach;
+        cache.servers[idx].outreach = cleanOutreach;
       }
     }
   }
@@ -42,11 +43,27 @@ export async function POST(req: Request) {
   const succeeded = results.filter((r) => r.status === "fulfilled").length;
   const failed = results.length - succeeded;
 
+  const totalMentions = results
+    .filter((r) => r.status === "fulfilled")
+    .reduce((sum, r) => sum + (r as PromiseFulfilledResult<{ outreach: { mentions: unknown[] } }>).value.outreach.mentions.length, 0);
+
+  type DebugCounts = { reddit: number; ddg: number; pmc: number };
+  const sourceDebug = results
+    .filter((r) => r.status === "fulfilled")
+    .map((r) => (r as PromiseFulfilledResult<{ id: string; outreach: { _debug?: DebugCounts } }>).value.outreach._debug)
+    .reduce<DebugCounts>((acc, d) => {
+      if (!d) return acc;
+      return { reddit: acc.reddit + d.reddit, ddg: acc.ddg + d.ddg, pmc: acc.pmc + d.pmc };
+    }, { reddit: 0, ddg: 0, pmc: 0 });
+
+  console.log(`[scan-outreach] scanned=${toScan.length} succeeded=${succeeded} failed=${failed} mentions=${totalMentions} sources=${JSON.stringify(sourceDebug)}`);
+
   return NextResponse.json({
     success: true,
     scanned: toScan.length,
     succeeded,
     failed,
-    duration: 0, // client can measure
+    totalMentions,
+    sources: sourceDebug,
   });
 }

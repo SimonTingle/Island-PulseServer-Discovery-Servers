@@ -21,6 +21,3 @@ environment:
   - key: ISLANDPULSE_ADMIN_KEY
     description: Admin API key for IslandPulse backend
     defaultValue: ''
-volumes:
-  - containerPath: /app/data
-    description: Server cache and discovered servers data

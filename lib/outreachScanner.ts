@@ -221,11 +221,17 @@ async function searchReddit(query: string): Promise<ForumMention[]> {
       const res = await fetch(
         `https://www.reddit.com/search.json?q=${encodeURIComponent(q)}&sort=new&limit=10&type=link`,
         {
-          headers: { "User-Agent": "IslandPulse-Discovery/1.0 (server-discovery)" },
-          signal: AbortSignal.timeout(8000),
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept": "application/json",
+          },
+          signal: AbortSignal.timeout(10000),
         }
       );
-      if (!res.ok) continue;
+      if (!res.ok) {
+        console.warn(`[reddit] query="${q}" returned ${res.status}`);
+        continue;
+      }
       const data = await res.json() as { data?: { children?: Array<{ data: RedditPost }> } };
       const posts = data?.data?.children ?? [];
 
@@ -243,7 +249,9 @@ async function searchReddit(query: string): Promise<ForumMention[]> {
           snippet: (post.selftext ?? "").slice(0, 200),
         });
       }
-    } catch { /* silent */ }
+    } catch (e) {
+      console.warn(`[reddit] query="${q}" failed:`, e instanceof Error ? e.message : String(e));
+    }
 
     await new Promise((r) => setTimeout(r, 1500));
   }
@@ -274,10 +282,18 @@ async function searchDuckDuckGo(serverName: string, hostname: string): Promise<F
       try {
         const res = await fetch(`https://html.duckduckgo.com/html/?q=${q}&kl=${kl}`, {
           headers: {
-            "User-Agent": "Mozilla/5.0 (compatible; IslandPulse-Bot/1.0)",
-            "Accept-Language": lang,
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xhtml;q=0.9,*/*;q=0.8",
+            "Accept-Language": `${lang},en;q=0.7`,
+            "Accept-Encoding": "gzip, deflate, br",
+            "DNT": "1",
+            "Upgrade-Insecure-Requests": "1",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Cache-Control": "max-age=0",
           },
-          signal: AbortSignal.timeout(10000),
+          signal: AbortSignal.timeout(12000),
         });
         if (!res.ok) return [];
         const html = await res.text();
@@ -340,11 +356,17 @@ async function searchPlanetMinecraft(serverName: string): Promise<ForumMention[]
     const res = await fetch(
       `https://www.planetminecraft.com/search/server/?keywords=${q}`,
       {
-        headers: { "User-Agent": "Mozilla/5.0 (compatible; IslandPulse-Bot/1.0)" },
-        signal: AbortSignal.timeout(10000),
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+          "Accept": "text/html,application/xhtml+xml",
+        },
+        signal: AbortSignal.timeout(12000),
       }
     );
-    if (!res.ok) return [];
+    if (!res.ok) {
+      console.warn(`[planetminecraft] returned ${res.status}`);
+      return [];
+    }
     const html = await res.text();
     for (const match of html.matchAll(PMC_TITLE_RE)) {
       const path = match[1];
@@ -354,7 +376,9 @@ async function searchPlanetMinecraft(serverName: string): Promise<ForumMention[]
       seen.add(url);
       mentions.push({ platform: "planetminecraft", url, title: title.slice(0, 150), date: null, language: "en", snippet: "" });
     }
-  } catch { /* silent */ }
+  } catch (e) {
+    console.warn(`[planetminecraft] failed:`, e instanceof Error ? e.message : String(e));
+  }
   return mentions;
 }
 
@@ -380,8 +404,6 @@ function extractContactsFromMentions(mentions: ForumMention[]): ContactChannel[]
 // ─── Heat score ───────────────────────────────────────────────────────────────
 
 function calculateHeatScore(mentions: ForumMention[]): HeatScore {
-  if (mentions.length === 0) return { score: 0, label: "Frozen", lastMentionDate: null };
-
   let latestMs: number | null = null;
   for (const m of mentions) {
     if (!m.date) continue;
@@ -389,7 +411,9 @@ function calculateHeatScore(mentions: ForumMention[]): HeatScore {
     if (!isNaN(t) && (latestMs === null || t > latestMs)) latestMs = t;
   }
 
-  if (latestMs === null) return { score: 35, label: "Warm", lastMentionDate: null };
+  if (latestMs === null) {
+    return { score: 50, label: "Warm", lastMentionDate: null };
+  }
 
   const daysSince = (Date.now() - latestMs) / (1000 * 60 * 60 * 24);
   const lastMentionDate = new Date(latestMs).toISOString();
@@ -424,7 +448,11 @@ function buildSearchQuery(server: ServerEntry): string {
 
 // ─── Public entry point ───────────────────────────────────────────────────────
 
-export async function scanOutreach(server: ServerEntry): Promise<OutreachData> {
+export interface ScanOutreachResult extends OutreachData {
+  _debug?: { reddit: number; ddg: number; pmc: number };
+}
+
+export async function scanOutreach(server: ServerEntry): Promise<ScanOutreachResult> {
   const query = buildSearchQuery(server);
 
   const [motdContacts, mcsrvstatContacts, ddgMentions, pmcMentions, redditMentions] =
@@ -441,10 +469,15 @@ export async function scanOutreach(server: ServerEntry): Promise<OutreachData> {
   const allContacts = mergeAndSortContacts([...motdContacts, ...mcsrvstatContacts, ...forumContacts]);
   const heat = calculateHeatScore(allMentions);
 
+  if (redditMentions.length === 0 && ddgMentions.length === 0 && pmcMentions.length === 0) {
+    console.warn(`[scanOutreach] ${server.hostname}: no mentions found (query="${query}")`);
+  }
+
   return {
     scannedAt: new Date().toISOString(),
     contacts: allContacts,
     mentions: allMentions,
     heat,
+    _debug: { reddit: redditMentions.length, ddg: ddgMentions.length, pmc: pmcMentions.length },
   };
 }
